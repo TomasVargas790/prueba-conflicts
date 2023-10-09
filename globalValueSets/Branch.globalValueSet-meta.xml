@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Auto</fullName>
+        <default>false</default>
+        <label>Automotores</label>
+    </customValue>
+    <customValue>
+        <fullName>Caucion</fullName>
+        <default>false</default>
+        <label>Caución</label>
+    </customValue>
+    <customValue>
+        <fullName>AccidentesPersonales</fullName>
+        <default>false</default>
+        <label>Accidentes Personales</label>
+    </customValue>
+    <customValue>
+        <fullName>VidaColectivo</fullName>
+        <default>false</default>
+        <label>Vida Colectivo</label>
+    </customValue>
+    <customValue>
+        <fullName>Hogar</fullName>
+        <default>false</default>
+        <label>Hogar</label>
+    </customValue>
+    <customValue>
+        <fullName>IntegralDeComercio</fullName>
+        <default>false</default>
+        <label>Integral de Comercio</label>
+    </customValue>
+    <customValue>
+        <fullName>Incendio</fullName>
+        <default>false</default>
+        <label>Incendio</label>
+    </customValue>
+    <customValue>
+        <fullName>ResponsabilidadCivil</fullName>
+        <default>false</default>
+        <label>Responsabilidad Civil</label>
+    </customValue>
+    <customValue>
+        <fullName>Agricola</fullName>
+        <default>false</default>
+        <label>Agrícola</label>
+    </customValue>
+    <customValue>
+        <fullName>IntegralDeConsorcio</fullName>
+        <default>false</default>
+        <label>Integral de Consorcio</label>
+    </customValue>
+    <customValue>
+        <fullName>Engineering</fullName>
+        <default>false</default>
+        <label>Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>RVP</fullName>
+        <default>false</default>
+        <label>RVP</label>
+    </customValue>
+    <customValue>
+        <fullName>Robo</fullName>
+        <default>false</default>
+        <label>Robo</label>
+    </customValue>
+    <customValue>
+        <fullName>AccidentesAPasajeros</fullName>
+        <default>false</default>
+        <label>Accidentes a Pasajeros</label>
+    </customValue>
+    <customValue>
+        <fullName>AccidentesDeTrabajo</fullName>
+        <default>false</default>
+        <label>Accidentes de Trabajo</label>
+    </customValue>
+    <customValue>
+        <fullName>Aeronavegacion</fullName>
+        <default>false</default>
+        <label>Aeronavegación</label>
+    </customValue>
+    <customValue>
+        <fullName>ART</fullName>
+        <default>false</default>
+        <label>ART</label>
+    </customValue>
+    <customValue>
+        <fullName>Cascos</fullName>
+        <default>false</default>
+        <label>Cascos</label>
+    </customValue>
+    <customValue>
+        <fullName>Cristales</fullName>
+        <default>false</default>
+        <label>Cristales</label>
+    </customValue>
+    <customValue>
+        <fullName>ExtensionDeGarantia</fullName>
+        <default>false</default>
+        <label>Extensión de Garantía</label>
+    </customValue>
+    <customValue>
+        <fullName>Motos</fullName>
+        <default>false</default>
+        <label>Motos</label>
+    </customValue>
+    <customValue>
+        <fullName>Property</fullName>
+        <default>false</default>
+        <label>Property</label>
+    </customValue>
+    <customValue>
+        <fullName>ReaseguroActivo</fullName>
+        <default>false</default>
+        <label>Reaseguro Activo</label>
+    </customValue>
+    <customValue>
+        <fullName>RoboYRiesgosVarios</fullName>
+        <default>false</default>
+        <label>Robo y Riesgos Varios</label>
+    </customValue>
+    <customValue>
+        <fullName>SeguroDeViajero</fullName>
+        <default>false</default>
+        <label>Seguro de Viajero</label>
+    </customValue>
+    <customValue>
+        <fullName>Sepelio</fullName>
+        <default>false</default>
+        <label>Sepelio</label>
+    </customValue>
+    <customValue>
+        <fullName>SiloBolsa</fullName>
+        <default>false</default>
+        <label>Silo Bolsa</label>
+    </customValue>
+    <customValue>
+        <fullName>TodoRiesgoBodegas</fullName>
+        <default>false</default>
+        <label>Todo Riesgo Bodegas</label>
+    </customValue>
+    <customValue>
+        <fullName>TodoRiesgoEnergia</fullName>
+        <default>false</default>
+        <label>Todo Riesgo Energia</label>
+    </customValue>
+    <customValue>
+        <fullName>TodoRiesgoTambos</fullName>
+        <default>false</default>
+        <label>Todo Riesgo Tambos</label>
+    </customValue>
+    <customValue>
+        <fullName>TodoRiesgoOperaciones</fullName>
+        <default>false</default>
+        <label>Todo Riesgo Operaciones</label>
+    </customValue>
+    <customValue>
+        <fullName>Transporte</fullName>
+        <default>false</default>
+        <label>Transporte</label>
+    </customValue>
+    <customValue>
+        <fullName>VidaIndividual</fullName>
+        <default>false</default>
+        <label>Vida Individual</label>
+    </customValue>
+    <customValue>
+        <fullName>VidaUnitLinked</fullName>
+        <default>false</default>
+        <label>Vida Unit Linked</label>
+    </customValue>
+    <customValue>
+        <fullName>VidaObligatorio</fullName>
+        <default>false</default>
+        <label>Vida Obligatorio</label>
+    </customValue>
+    <customValue>
+        <fullName>VidaUL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>VidaUL</label>
+    </customValue>
+    <customValue>
+        <fullName>NoDefinido</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NoDefinido</label>
+    </customValue>
+    <customValue>
+        <fullName>VidaUnitLinkedING</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>VidaUnitLinkedING</label>
+    </customValue>
+    <customValue>
+        <fullName>VidaUnitLinkedPUMA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>VidaUnitLinkedPUMA</label>
+    </customValue>
+    <description>Ramos de Zurich</description>
+    <masterLabel>Ramo</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

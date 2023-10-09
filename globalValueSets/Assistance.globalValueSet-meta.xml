@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Zurich Help Mujer</fullName>
+        <default>false</default>
+        <label>Zurich Help Mujer</label>
+    </customValue>
+    <customValue>
+        <fullName>Zurich Help You</fullName>
+        <default>false</default>
+        <label>Zurich Help You</label>
+    </customValue>
+    <customValue>
+        <fullName>AonAssist</fullName>
+        <default>false</default>
+        <label>Aon Assist</label>
+    </customValue>
+    <customValue>
+        <fullName>AonAssistAutos</fullName>
+        <default>false</default>
+        <label>Aon Assist Autos</label>
+    </customValue>
+    <customValue>
+        <fullName>AonAssistAutosLP</fullName>
+        <default>false</default>
+        <label>Aon Assist Autos LP</label>
+    </customValue>
+    <customValue>
+        <fullName>AonAssistCamiones</fullName>
+        <default>false</default>
+        <label>Aon Assist Camiones</label>
+    </customValue>
+    <customValue>
+        <fullName>AonAssistGPAT</fullName>
+        <default>false</default>
+        <label>Aon Assist GPAT</label>
+    </customValue>
+    <customValue>
+        <fullName>AonAssistSemis</fullName>
+        <default>false</default>
+        <label>Aon Assist Semis</label>
+    </customValue>
+    <customValue>
+        <fullName>AonAssistTRGPAT</fullName>
+        <default>false</default>
+        <label>Aon Assist TR GPAT</label>
+    </customValue>
+    <customValue>
+        <fullName>ZurichAsistenciaEscolar</fullName>
+        <default>false</default>
+        <label>Zurich Asistencia Escolar</label>
+    </customValue>
+    <customValue>
+        <fullName>ZurichCanastaBasica</fullName>
+        <default>false</default>
+        <label>Zurich Canasta Básica</label>
+    </customValue>
+    <customValue>
+        <fullName>ZurichGo</fullName>
+        <default>false</default>
+        <label>Zurich Go</label>
+    </customValue>
+    <customValue>
+        <fullName>ZurichTerceraEdad</fullName>
+        <default>false</default>
+        <label>Zurich Tercera Edad</label>
+    </customValue>
+    <customValue>
+        <fullName>ZurichTNAssist</fullName>
+        <default>false</default>
+        <label>Zurich TN Assist</label>
+    </customValue>
+    <customValue>
+        <fullName>ZurichViajeroFrecuente</fullName>
+        <default>false</default>
+        <label>Zurich Viajero Frecuente</label>
+    </customValue>
+    <customValue>
+        <fullName>Zurihelp</fullName>
+        <default>false</default>
+        <label>Zurihelp</label>
+    </customValue>
+    <customValue>
+        <fullName>ZurihelpAgro</fullName>
+        <default>false</default>
+        <label>Zurihelp Agro</label>
+    </customValue>
+    <customValue>
+        <fullName>ZurihelpAsistenciaCompleta</fullName>
+        <default>false</default>
+        <label>Zurihelp Asistencia Completa</label>
+    </customValue>
+    <customValue>
+        <fullName>ZurihelpAsistenciaMecanicaU</fullName>
+        <default>false</default>
+        <label>Zurihelp Asistencia Mecánica U</label>
+    </customValue>
+    <customValue>
+        <fullName>ZurihelpCamion</fullName>
+        <default>false</default>
+        <label>Zurihelp Camión</label>
+    </customValue>
+    <customValue>
+        <fullName>SinAsistencia</fullName>
+        <default>false</default>
+        <label>Sin Asistencia</label>
+    </customValue>
+    <customValue>
+        <fullName>SOS</fullName>
+        <default>false</default>
+        <label>SOS</label>
+    </customValue>
+    <customValue>
+        <fullName>ZurihelpHogarPremium</fullName>
+        <default>false</default>
+        <label>Zurihelp Hogar Premium</label>
+    </customValue>
+    <customValue>
+        <fullName>MarshIKE</fullName>
+        <default>false</default>
+        <label>Marsh-IKE</label>
+    </customValue>
+    <customValue>
+        <fullName>AsistenciaBlueLabel</fullName>
+        <default>false</default>
+        <label>Asistencia Blue Label</label>
+    </customValue>
+    <customValue>
+        <fullName>RoboDeBsPersEnTransito</fullName>
+        <default>false</default>
+        <label>Robo de Bs. Pers. En Tránsito</label>
+    </customValue>
+    <customValue>
+        <fullName>RVP</fullName>
+        <default>false</default>
+        <label>RVP</label>
+    </customValue>
+    <customValue>
+        <fullName>ZurichProtect</fullName>
+        <default>false</default>
+        <label>Zurich Protect</label>
+    </customValue>
+    <customValue>
+        <fullName>ZurichNaranja</fullName>
+        <default>false</default>
+        <label>Zurich Naranja</label>
+    </customValue>
+    <customValue>
+        <fullName>FordAssist</fullName>
+        <default>false</default>
+        <label>Ford Assist</label>
+    </customValue>
+    <customValue>
+        <fullName>FordAssistPremium</fullName>
+        <default>false</default>
+        <label>Ford Assist Premium</label>
+    </customValue>
+    <customValue>
+        <fullName>SantanderAsistencia</fullName>
+        <default>false</default>
+        <label>Santander Asistencia</label>
+    </customValue>
+    <customValue>
+        <fullName>GaliciaAssist</fullName>
+        <default>false</default>
+        <label>Galicia Assist</label>
+    </customValue>
+    <customValue>
+        <fullName>AudiPremium</fullName>
+        <default>false</default>
+        <label>Audi Premium</label>
+    </customValue>
+    <customValue>
+        <fullName>VWPremium</fullName>
+        <default>false</default>
+        <label>VW Premium</label>
+    </customValue>
+    <customValue>
+        <fullName>VWBasica</fullName>
+        <default>false</default>
+        <label>VW Básica</label>
+    </customValue>
+    <customValue>
+        <fullName>CourtageAssist</fullName>
+        <default>false</default>
+        <label>Courtage Assist</label>
+    </customValue>
+    <customValue>
+        <fullName>HSBCAssist</fullName>
+        <default>false</default>
+        <label>HSBC Asistencia</label>
+    </customValue>
+    <customValue>
+        <fullName>ServicioDeRemolque</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Servicio de Remolque</label>
+    </customValue>
+    <description>Lista de asistencias disponibles</description>
+    <masterLabel>Asistencias</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,11 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "0ee417f5-5359-440d-a7ce-78325edc67b8",
+  "headMarkup" : "<script>\n    if(window.location.pathname.endsWith(\"ForgotPassword\")) {\n        const urlParams = new URLSearchParams(window.location.search);\n        const redirectValue = urlParams.get(\"redirect\");\n\t\t\n        var observer = new MutationObserver(function (mutationsList, observer) {\n            for (var mutation of mutationsList) {\n                if (mutation.type === 'childList' || mutation.type === 'attributes') {\n                    if (document.querySelector('.community-text-title') && redirectValue == \"expired\") {\n                        document.querySelector('.community-text-title').innerHTML = 'Contraseña expirada';\n                        observer.disconnect();\n                        break;\n                    }\n                }\n            }\n        });\n\n        observer.observe(document, { childList: true, subtree: true, attributes: true });\n    }\n</script>",
+  "id" : "7e87dfd2-17e2-4c7f-b1dd-13342b2816fd",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : true,
+  "label" : "main",
+  "templateName" : "PRM Community Template",
+  "type" : "appPage"
+}

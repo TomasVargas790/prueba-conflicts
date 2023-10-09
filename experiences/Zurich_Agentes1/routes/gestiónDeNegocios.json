@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "da4b1ae6-d8ed-4dbf-ae99-417a8b6ab3d6",
+  "appPageId" : "7e87dfd2-17e2-4c7f-b1dd-13342b2816fd",
+  "configurationTags" : [ ],
+  "id" : "847aeb9a-97a7-44f5-bf5b-19507ba10faf",
+  "label" : "Gestión de Negocios",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-negocios",
+  "type" : "route",
+  "urlPrefix" : "negocios"
+}

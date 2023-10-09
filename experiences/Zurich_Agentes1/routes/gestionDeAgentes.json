@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "b4bd4271-abeb-4d70-a94a-078061f4afc1",
+  "appPageId" : "7e87dfd2-17e2-4c7f-b1dd-13342b2816fd",
+  "configurationTags" : [ ],
+  "id" : "86db1d83-de54-4848-88b1-10f27c2fc852",
+  "label" : "Gestion de Agentes",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-productores",
+  "type" : "route",
+  "urlPrefix" : "productores"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_InsurancePolicies</fullName>
+    <columns>Name</columns>
+    <columns>NameInsured</columns>
+    <columns>ExpirationDate</columns>
+    <columns>PremiumAmount</columns>
+    <columns>Status</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RecordType</field>
+        <operation>equals</operation>
+        <value>InsurancePolicy.VidaUnitLinked</value>
+    </filters>
+    <label>Todas las Pólizas de seguros</label>
+</ListView>

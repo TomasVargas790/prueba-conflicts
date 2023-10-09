@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>E</fullName>
+        <default>false</default>
+        <label>Eagles</label>
+    </customValue>
+    <customValue>
+        <fullName>ARS</fullName>
+        <default>false</default>
+        <label>Pesos</label>
+    </customValue>
+    <customValue>
+        <fullName>USD</fullName>
+        <default>false</default>
+        <label>Dolares EE.UU.</label>
+    </customValue>
+    <customValue>
+        <fullName>$G</fullName>
+        <default>false</default>
+        <label>Global</label>
+    </customValue>
+    <customValue>
+        <fullName>U$D</fullName>
+        <default>false</default>
+        <label>Dolares B.</label>
+    </customValue>
+    <customValue>
+        <fullName>CER</fullName>
+        <default>false</default>
+        <label>Coeficiente de estabilizacion de Referencia</label>
+    </customValue>
+    <customValue>
+        <fullName>VAL</fullName>
+        <default>false</default>
+        <label>Coeficiente de valorizacion</label>
+    </customValue>
+    <customValue>
+        <fullName>VRU$S</fullName>
+        <default>false</default>
+        <label>Valor a la referencia U$S</label>
+    </customValue>
+    <customValue>
+        <fullName>MI</fullName>
+        <default>false</default>
+        <label>Moneda Invalida</label>
+    </customValue>
+    <customValue>
+        <fullName>CNV</fullName>
+        <default>false</default>
+        <label>Dólar Bursatil</label>
+    </customValue>
+    <customValue>
+        <fullName>DEM</fullName>
+        <default>false</default>
+        <label>Marcos Alemanes</label>
+    </customValue>
+    <customValue>
+        <fullName>CHF</fullName>
+        <default>false</default>
+        <label>Francos Suizos</label>
+    </customValue>
+    <customValue>
+        <fullName>A20B</fullName>
+        <default>false</default>
+        <label>Pesos Argentinos 1983</label>
+    </customValue>
+    <customValue>
+        <fullName>EUR</fullName>
+        <default>false</default>
+        <label>Euros</label>
+    </customValue>
+    <customValue>
+        <fullName>A11P</fullName>
+        <default>false</default>
+        <label>Unidad Financiero</label>
+    </customValue>
+    <customValue>
+        <fullName>A21B</fullName>
+        <default>false</default>
+        <label>Bonex 82</label>
+    </customValue>
+    <customValue>
+        <fullName>A23B</fullName>
+        <default>false</default>
+        <label>Unidad de Cuenta Seguros</label>
+    </customValue>
+    <customValue>
+        <fullName>A24B</fullName>
+        <default>false</default>
+        <label>Unidad Pago Referencial</label>
+    </customValue>
+    <customValue>
+        <fullName>GPD</fullName>
+        <default>false</default>
+        <label>Libras Esterlinas</label>
+    </customValue>
+    <customValue>
+        <fullName>FRF</fullName>
+        <default>false</default>
+        <label>Francos Frances</label>
+    </customValue>
+    <customValue>
+        <fullName>BEF</fullName>
+        <default>false</default>
+        <label>Francos Belgas</label>
+    </customValue>
+    <customValue>
+        <fullName>ITL</fullName>
+        <default>false</default>
+        <label>Liras Italianas</label>
+    </customValue>
+    <customValue>
+        <fullName>NLG</fullName>
+        <default>false</default>
+        <label>Florines Holandeses</label>
+    </customValue>
+    <customValue>
+        <fullName>SEK</fullName>
+        <default>false</default>
+        <label>Coronas Suecas</label>
+    </customValue>
+    <customValue>
+        <fullName>CAD</fullName>
+        <default>false</default>
+        <label>Dolares Canadienses</label>
+    </customValue>
+    <customValue>
+        <fullName>ESP</fullName>
+        <default>false</default>
+        <label>Pesetas</label>
+    </customValue>
+    <customValue>
+        <fullName>PTEB</fullName>
+        <default>false</default>
+        <label>Escudos Portuguesos</label>
+    </customValue>
+    <customValue>
+        <fullName>JPY</fullName>
+        <default>false</default>
+        <label>Yens</label>
+    </customValue>
+    <customValue>
+        <fullName>ATS</fullName>
+        <default>false</default>
+        <label>Chelines Austriacos</label>
+    </customValue>
+    <customValue>
+        <fullName>DKK</fullName>
+        <default>false</default>
+        <label>Coronas Danesas</label>
+    </customValue>
+    <customValue>
+        <fullName>NOK</fullName>
+        <default>false</default>
+        <label>Coronas Noruegas</label>
+    </customValue>
+    <customValue>
+        <fullName>A22B</fullName>
+        <default>false</default>
+        <label>Bonex 84</label>
+    </customValue>
+    <customValue>
+        <fullName>A25B</fullName>
+        <default>false</default>
+        <label>Bonex 89</label>
+    </customValue>
+    <customValue>
+        <fullName>A26B</fullName>
+        <default>false</default>
+        <label>Bonex 87</label>
+    </customValue>
+    <customValue>
+        <fullName>A27B</fullName>
+        <default>false</default>
+        <label>Australes</label>
+    </customValue>
+    <customValue>
+        <fullName>BRL</fullName>
+        <default>false</default>
+        <label>Reales</label>
+    </customValue>
+    <customValue>
+        <fullName>USDB</fullName>
+        <default>false</default>
+        <label>Billete Dólar Minorista</label>
+    </customValue>
+    <customValue>
+        <fullName>EURB</fullName>
+        <default>false</default>
+        <label>Billete Euro Minorista</label>
+    </customValue>
+    <customValue>
+        <fullName>ARSP</fullName>
+        <default>false</default>
+        <label>Pesos.</label>
+    </customValue>
+    <customValue>
+        <fullName>UPR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>UPR</label>
+    </customValue>
+    <customValue>
+        <fullName>UCS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>UCS</label>
+    </customValue>
+    <customValue>
+        <fullName>BX82</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BX82</label>
+    </customValue>
+    <customValue>
+        <fullName>UF</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>UF</label>
+    </customValue>
+    <description>Tipos de monedas</description>
+    <masterLabel>Monedas</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

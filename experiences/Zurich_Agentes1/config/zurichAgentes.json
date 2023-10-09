@@ -1,0 +1,66 @@
+{
+  "forgotPasswordRouteId" : "786b5920-362b-437f-bdaa-33ee33ca8c93",
+  "isAvailableToGuests" : false,
+  "isFilteredComponentsView" : true,
+  "isProgressiveRenderingEnabled" : false,
+  "loginAppPageId" : "0bdaecb0-ba0d-43a6-9352-ec17e5d8c2da",
+  "mainAppPageId" : "7e87dfd2-17e2-4c7f-b1dd-13342b2816fd",
+  "preferredDomain" : "none",
+  "selfRegistrationRouteId" : "f0eccb6e-f319-4f3b-aa6c-471e7e169c97",
+  "trustedSitesForScript" : [ {
+    "id" : "2ef13f1c-42dc-4adb-81cc-696537742146",
+    "isActive" : true,
+    "trustedSiteName" : "Google",
+    "trustedSiteUrl" : "https://www.google.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "c78a19a3-ea75-4478-8936-bd4799ddf19f",
+    "isActive" : true,
+    "trustedSiteName" : "Okta js",
+    "trustedSiteUrl" : "https://global.oktacdn.com/okta-signin-widget/5.5.3/js/okta-sign-in.min.js",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "0ce8b240-d81b-431f-a925-914c32d7bc58",
+    "isActive" : true,
+    "trustedSiteName" : "Okta css",
+    "trustedSiteUrl" : "https://global.oktacdn.com/okta-signin-widget/5.5.3/css/okta-sign-in.min.css",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "ff04842c-d461-4f62-80f7-54e8d5dab2cc",
+    "isActive" : true,
+    "trustedSiteName" : "Okta",
+    "trustedSiteUrl" : "https://dev-07598595.okta.com/",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "7e5c8dbf-0011-4610-bffe-3da8995483df",
+    "isActive" : true,
+    "trustedSiteName" : "arznt0195",
+    "trustedSiteUrl" : "https://arznt0195.zurich.uat/",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "b7b0b2cb-ea07-48fd-afe1-107c0008b30f",
+    "isActive" : true,
+    "trustedSiteName" : "Zurich Argentina",
+    "trustedSiteUrl" : "https://www.zurich.com.ar",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "4b6a6570-4b2d-41bd-b82c-eeb1a855bf4a",
+    "isActive" : true,
+    "trustedSiteName" : "Agentes Zurich",
+    "trustedSiteUrl" : "https://agentes.zurich.com.ar",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "3b79910b-5faa-44f3-87b1-839285490af0",
+    "isActive" : true,
+    "trustedSiteName" : "Zurich Force",
+    "trustedSiteUrl" : "https://zurich-argentina.force.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "b02bbd13-ec05-412e-8d72-a658b6035449",
+    "isActive" : true,
+    "trustedSiteName" : "Zurich Arg Salesforce Site",
+    "trustedSiteUrl" : "https://zurich-arg.my.salesforce.com",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plans</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PlanType__c</columns>
+    <columns>Product__c</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>CodeAS400__c</columns>
+    <columns>ExternalId__c</columns>
+    <columns>PRODUCT2.EXTERNAL_ID</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.RECORD_TYPE</field>
+        <operation>equals</operation>
+        <value>Product2.Plan</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.FAMILY</field>
+        <operation>equals</operation>
+        <value>Auto</value>
+    </filters>
+    <label>Planes</label>
+</ListView>

@@ -1,0 +1,71 @@
+{
+  "appPageId" : "7e87dfd2-17e2-4c7f-b1dd-13342b2816fd",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "8900bd23-8d1c-4903-9cd4-632bd7a47b72",
+  "label" : "Ayuda",
+  "regions" : [ {
+    "id" : "376dc866-06c2-4932-ab82-12e15e1e0082",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:agentHelp",
+      "id" : "a86ef5c3-2208-4e2c-995c-7fe43282ef32",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "heightDesktop" : 30,
+        "heightMobile" : 20
+      },
+      "componentName" : "c:agentSpacer",
+      "id" : "161a8a87-4676-48b8-a273-dabb9ba8be44",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "30db510b-c728-43f8-bff3-dd57cb5491ba",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:agentToastCookiesNotification",
+      "id" : "5078dd24-fdac-47c3-bbcc-d304ef0b3b4e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:agentFooterWrapper",
+      "id" : "6c5e59e3-3e48-4162-a9e9-93fe7cbb8fef",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2a9e8e2a-40e6-4843-a2cd-b7f6135155aa",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "<meta name=\"robots\" content=\"noindex\">",
+        "description" : "Página que se abre al clickear en \"Ayuda\" sobre el Footer.",
+        "title" : "Ayuda"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e03a4b75-b3bd-4384-b321-9f1647f9fb17",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0a073f5e-f656-4bad-8aac-6c68b3f913de",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "4rvrDvbiE3nzPCjVvnhqhNtb5FWpKI",
+  "type" : "view",
+  "viewType" : "custom-ayuda"
+}

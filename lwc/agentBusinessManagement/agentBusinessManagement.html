@@ -1,0 +1,43 @@
+<template>
+    <c-agent-loader-spinner if:true={loading} hasbackdrop></c-agent-loader-spinner>
+    <div class="business-management">
+        <!-- User ONE-->
+        <c-agent-business-management-user user-one={userOne} user-list={userList} onswitch={handlerSwitchUser}
+            onclose={handlerCloseUserModal} onselecteduser={handlerSelectedUser} is-open-modal>
+        </c-agent-business-management-user>
+        <div class="business-menu">
+            <div class="business-menu__header">
+                <h1 title={label.title} class="business-menu__title">{label.title}</h1>
+                <!-- Breadcrumb -->
+                <c-agent-business-management-breadcrumb if:true={root} breadcrumb-list={breadcrumbList}
+                    onbreadcrumbnavigation={handlerBreadcrumbNavigation} root={root}>
+                </c-agent-business-management-breadcrumb>
+            </div>
+            <!-- Options/Menu -->
+            <template if:false={showIframe}>
+                <div class={menuColumnClass}>
+                    <template for:each={optionsList} for:item="opt">
+                        <div key={opt.id} class="business-menu__opt">
+                            <c-agent-button-large code-id={opt.id} value={opt.label} icon-list={opt.icons}
+                                icon-path={optionIconPath} onbuttonclick={handlerButtonLarge}>
+                            </c-agent-button-large>
+                        </div>
+                    </template>
+                </div>
+            </template>
+            <template if:true={optionError}>
+                <c-agent-error-message message={optionError}></c-agent-error-message>
+            </template>
+            <!-- Iframe -->
+            <div if:true={showIframe} class="business-iframe">
+                <c-agent-iframe iframe-url={iframeUrl}></c-agent-iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Agent Select -->
+    <template if:true={showModal}>
+        <c-agent-business-management-agent-modal agents-list={agentsList} oncloseagentmodal={handlerCloseAgentModal}
+            onselectedvalues={handlerSelectedAgentAndRole}>
+        </c-agent-business-management-agent-modal>
+    </template>
+</template>

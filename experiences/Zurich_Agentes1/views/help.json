@@ -1,0 +1,134 @@
+{
+  "appPageId" : "7e87dfd2-17e2-4c7f-b1dd-13342b2816fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "402fe140-5d22-4c55-a0fa-a8ea64cd70d1",
+  "label" : "Help",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "021b7592-755a-46b9-9571-339120c147c9",
+          "columns" : [ {
+            "UUID" : "c1eda332-7b2f-43cc-a958-b56268e17913",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 400
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "021b7592-755a-46b9-9571-339120c147c9",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:zurichHeader",
+          "id" : "18516e66-f807-4dcd-922a-5d7725eafb3d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "heightDesktop" : 100,
+            "heightMobile" : 100
+          },
+          "componentName" : "c:agentSpacer",
+          "id" : "ad95b93e-e6a1-488d-8219-6d5f9e934b67",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"font-size: 13px;line-height: 17px;text-align: center;font-weight: 200;padding-bottom: 12px; color: #4066b3;\">Si necesitás ayuda podés acceder a la guía haciendo <a href=\"https://www.zurich.com.ar/es-AR/-/media/project/zwp/argentina/docs/zurich-point-guia-de-ingreso.pdf\">clic aquí.</a></p>\n<p style=\"font-size: 13px;line-height: 17px;text-align: center;font-weight: 200;padding-bottom: 12px; color: #4066b3;\">Por consultas adicionales, comunicate con tu Organizador, Ejecutivo de Servicio o la Administración de tu agencia, según corresponda.</p>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "df24371e-783a-441d-8a71-0298779a75ce",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "heightDesktop" : 100,
+            "heightMobile" : 100
+          },
+          "componentName" : "c:agentSpacer",
+          "id" : "e7e729c1-0cc9-4180-9dec-b5958fa8ffa8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c1eda332-7b2f-43cc-a958-b56268e17913",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "c0921ff4-d418-4496-aa1e-1389c6faa3ae",
+          "columns" : [ {
+            "UUID" : "9464819c-e456-4be8-894b-5cffa60e037a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c0921ff4-d418-4496-aa1e-1389c6faa3ae",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:agentFooterWrapper",
+          "id" : "599569e6-eb87-467e-b189-5dcd74d3a126",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9464819c-e456-4be8-894b-5cffa60e037a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9567d756-0baf-41cc-8f5d-360db95bf1af",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "<meta name=\"robots\" content=\"noindex\">",
+        "description" : "",
+        "title" : "Ayuda"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e8bf023c-c313-43b9-a65f-16dfb4281e5b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "367c5906-6b52-424e-bd59-1944a932eb2e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "4rvrDvbiE3nzPCjVvnhqhNtb5FWpKI",
+  "type" : "view",
+  "viewType" : "custom-help"
+}

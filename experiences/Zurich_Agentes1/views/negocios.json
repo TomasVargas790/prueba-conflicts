@@ -1,0 +1,46 @@
+{
+  "appPageId" : "7e87dfd2-17e2-4c7f-b1dd-13342b2816fd",
+  "componentName" : "c:AgentContentLayout",
+  "dataProviders" : [ ],
+  "id" : "da4b1ae6-d8ed-4dbf-ae99-417a8b6ab3d6",
+  "label" : "negocios",
+  "regions" : [ {
+    "id" : "83e3caf6-81af-4f41-a4aa-9231f5e9839d",
+    "regionName" : "Header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:agentBusinessManagement",
+      "id" : "4e233932-2086-4306-b182-5c6a394aaf5a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8c4a3686-b68d-4979-82a2-629951e7ad3c",
+    "regionName" : "MainContent",
+    "type" : "region"
+  }, {
+    "id" : "45f2fb8d-4382-4897-b5d9-89c88195f57c",
+    "regionName" : "Footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Gestión de Negocios"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b6af2056-6749-4e78-b975-0fffa59c108f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "df0b9ba1-1451-4c0d-9e97-fcdf656e85b0",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-negocios"
+}

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DocumentType__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Documento</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1) ACTA DESIGNANDO AUTORIDADES</fullName>
+                <default>false</default>
+                <label>1) ACTA DESIGNANDO AUTORIDADES</label>
+            </value>
+            <value>
+                <fullName>2) BALANCE/SITUACIÓN ECONÓMICA</fullName>
+                <default>false</default>
+                <label>2) BALANCE/SITUACIÓN ECONÓMICA</label>
+            </value>
+            <value>
+                <fullName>3) COPIA DEL DNI</fullName>
+                <default>false</default>
+                <label>3) COPIA DEL DNI</label>
+            </value>
+            <value>
+                <fullName>4) ESTATUTO/REGLAMENTO/CONTRATO</fullName>
+                <default>false</default>
+                <label>4) ESTATUTO/REGLAMENTO/CONTRATO</label>
+            </value>
+            <value>
+                <fullName>5) DDJJ UNIFICADA (LAVADO+PEP)</fullName>
+                <default>false</default>
+                <label>5) DDJJ UNIFICADA (LAVADO+PEP)</label>
+            </value>
+            <value>
+                <fullName>6) ACTA DESIGNACIÓN RTE.LEGAL/APOD./AUTOR</fullName>
+                <default>false</default>
+                <label>6) ACTA DESIGNACIÓN RTE.LEGAL/APOD./AUTOR</label>
+            </value>
+            <value>
+                <fullName>7) COPIA DE REGISTRO DE ACCIONES</fullName>
+                <default>false</default>
+                <label>7) COPIA DE REGISTRO DE ACCIONES</label>
+            </value>
+            <value>
+                <fullName>9) SUJETO OBLIGADO</fullName>
+                <default>false</default>
+                <label>9) SUJETO OBLIGADO</label>
+            </value>
+            <value>
+                <fullName>10) DOC ESPECIAL</fullName>
+                <default>false</default>
+                <label>10) DOC ESPECIAL</label>
+            </value>
+            <value>
+                <fullName>11) FIRMAS</fullName>
+                <default>false</default>
+                <label>11) FIRMAS</label>
+            </value>
+            <value>
+                <fullName>12)DECLARACION A E I</fullName>
+                <default>false</default>
+                <label>12)DECLARACION A E I</label>
+            </value>
+            <value>
+                <fullName>13) FORMULARIO FATCA</fullName>
+                <default>false</default>
+                <label>13) FORMULARIO FATCA</label>
+            </value>
+            <value>
+                <fullName>14) UW MEDICO</fullName>
+                <default>false</default>
+                <label>14) UW MEDICO</label>
+            </value>
+            <value>
+                <fullName>15) UW LAVADO DE DINERO</fullName>
+                <default>false</default>
+                <label>15) UW LAVADO DE DINERO</label>
+            </value>
+            <value>
+                <fullName>19) CARTAS CLIENTE</fullName>
+                <default>false</default>
+                <label>19) CARTAS CLIENTE</label>
+            </value>
+            <value>
+                <fullName>20) SOLICITUD</fullName>
+                <default>false</default>
+                <label>20) SOLICITUD</label>
+            </value>
+            <value>
+                <fullName>24) OTROS</fullName>
+                <default>false</default>
+                <label>24) OTROS</label>
+            </value>
+            <value>
+                <fullName>25) FORMULARIO GDPR</fullName>
+                <default>false</default>
+                <label>25) FORMULARIO GDPR</label>
+            </value>
+            <value>
+                <fullName>01-Form Alta (PAS–Mger/TL-ECU)</fullName>
+                <default>false</default>
+                <label>01-Form Alta (PAS–Mger/TL-ECU)</label>
+            </value>
+            <value>
+                <fullName>02-Fotocopia DNI</fullName>
+                <default>false</default>
+                <label>02-Fotocopia DNI</label>
+            </value>
+            <value>
+                <fullName>02-Foto 4 x 4</fullName>
+                <default>false</default>
+                <label>02-Foto 4 x 4</label>
+            </value>
+            <value>
+                <fullName>03-Fotocopia DNI</fullName>
+                <default>false</default>
+                <label>03-Fotocopia DNI</label>
+            </value>
+            <value>
+                <fullName>03-Estatuto</fullName>
+                <default>false</default>
+                <label>03-Estatuto</label>
+            </value>
+            <value>
+                <fullName>04-AFIP: Constancia Inscrip.</fullName>
+                <default>false</default>
+                <label>04-AFIP: Constancia Inscrip.</label>
+            </value>
+            <value>
+                <fullName>04-Acta distribución Cargos</fullName>
+                <default>false</default>
+                <label>04-Acta distribución Cargos</label>
+            </value>
+            <value>
+                <fullName>05-IIBB / Conv.Multilateral</fullName>
+                <default>false</default>
+                <label>05-IIBB / Conv.Multilateral</label>
+            </value>
+            <value>
+                <fullName>05-Identificación Benef. Final</fullName>
+                <default>false</default>
+                <label>05-Identificación Benef. Final</label>
+            </value>
+            <value>
+                <fullName>06-Credencial CIPAS</fullName>
+                <default>false</default>
+                <label>06-Credencial CIPAS</label>
+            </value>
+            <value>
+                <fullName>06-AFIP: Constancia Inscrip.</fullName>
+                <default>false</default>
+                <label>06-AFIP: Constancia Inscrip.</label>
+            </value>
+            <value>
+                <fullName>07-Certificación Domicilio</fullName>
+                <default>false</default>
+                <label>07-Certificación Domicilio</label>
+            </value>
+            <value>
+                <fullName>07-IIBB / Conv.Multilateral</fullName>
+                <default>false</default>
+                <label>07-IIBB / Conv.Multilateral</label>
+            </value>
+            <value>
+                <fullName>08-Exenciones impositivas</fullName>
+                <default>false</default>
+                <label>08-Exenciones impositivas</label>
+            </value>
+            <value>
+                <fullName>08-Credencial CIPAS</fullName>
+                <default>false</default>
+                <label>08-Credencial CIPAS</label>
+            </value>
+            <value>
+                <fullName>09-OSSEG: copia inscripción</fullName>
+                <default>false</default>
+                <label>09-OSSEG: copia inscripción</label>
+            </value>
+            <value>
+                <fullName>09-Certificación Domicilio</fullName>
+                <default>false</default>
+                <label>09-Certificación Domicilio</label>
+            </value>
+            <value>
+                <fullName>10-Cert. Datos Bancarios</fullName>
+                <default>false</default>
+                <label>10-Cert. Datos Bancarios</label>
+            </value>
+            <value>
+                <fullName>10-Exenciones Impositivas</fullName>
+                <default>false</default>
+                <label>10-Exenciones Impositivas</label>
+            </value>
+            <value>
+                <fullName>11-Form. Eval. Reclutamiento</fullName>
+                <default>false</default>
+                <label>11-Form. Eval. Reclutamiento</label>
+            </value>
+            <value>
+                <fullName>11-Form. 931 AFIP</fullName>
+                <default>false</default>
+                <label>11-Form. 931 AFIP</label>
+            </value>
+            <value>
+                <fullName>12-Contrato Zurich firmado</fullName>
+                <default>false</default>
+                <label>12-Contrato Zurich firmado</label>
+            </value>
+            <value>
+                <fullName>12-Certif. Datos Bancarios</fullName>
+                <default>false</default>
+                <label>12-Certif. Datos Bancarios</label>
+            </value>
+            <value>
+                <fullName>12-Form. Priv y Consentimiento</fullName>
+                <default>false</default>
+                <label>12-Form. Priv y Consentimiento</label>
+            </value>
+            <value>
+                <fullName>13-Form. Eval. Reclutamiento</fullName>
+                <default>false</default>
+                <label>13-Form. Eval. Reclutamiento</label>
+            </value>
+            <value>
+                <fullName>13-Registro de Firmas</fullName>
+                <default>false</default>
+                <label>13-Registro de Firmas</label>
+            </value>
+            <value>
+                <fullName>14-Contrato Zurich firmado</fullName>
+                <default>false</default>
+                <label>14-Contrato Zurich firmado</label>
+            </value>
+            <value>
+                <fullName>14-Form. Solicitud Inscripción</fullName>
+                <default>false</default>
+                <label>14-Form. Solicitud Inscripción</label>
+            </value>
+            <value>
+                <fullName>14-Form. Priv y Consentimiento</fullName>
+                <default>false</default>
+                <label>14-Form. Priv y Consentimiento</label>
+            </value>
+            <value>
+                <fullName>15-DD JJ Res. UIF 28/2018</fullName>
+                <default>false</default>
+                <label>15-DD JJ Res. UIF 28/2018</label>
+            </value>
+            <value>
+                <fullName>15-Registro de Firmas</fullName>
+                <default>false</default>
+                <label>15-Registro de Firmas</label>
+            </value>
+            <value>
+                <fullName>16-Constancia Inscripción UIF</fullName>
+                <default>false</default>
+                <label>16-Constancia Inscripción UIF</label>
+            </value>
+            <value>
+                <fullName>16-Form. Solicitud Inscripción</fullName>
+                <default>false</default>
+                <label>16-Form. Solicitud Inscripción</label>
+            </value>
+            <value>
+                <fullName>17-Capac. Prev. Lavado Dinero</fullName>
+                <default>false</default>
+                <label>17-Capac. Prev. Lavado Dinero</label>
+            </value>
+            <value>
+                <fullName>17-DD JJ Res. UIF 28/2018</fullName>
+                <default>false</default>
+                <label>17-DD JJ Res. UIF 28/2018</label>
+            </value>
+            <value>
+                <fullName>18-Form. Afiliac. A Asoc de P.</fullName>
+                <default>false</default>
+                <label>18-Form. Afiliac. A Asoc de P.</label>
+            </value>
+            <value>
+                <fullName>18-Constancia Inscripción UIF</fullName>
+                <default>false</default>
+                <label>18-Constancia Inscripción UIF</label>
+            </value>
+            <value>
+                <fullName>20-Nosis</fullName>
+                <default>false</default>
+                <label>20-Nosis</label>
+            </value>
+            <value>
+                <fullName>19-Capac. Prev. Lavado Dinero</fullName>
+                <default>false</default>
+                <label>19-Capac. Prev. Lavado Dinero</label>
+            </value>
+            <value>
+                <fullName>20-Form. Afiliac. A Asoc de P.</fullName>
+                <default>false</default>
+                <label>20-Form. Afiliac. A Asoc de P.</label>
+            </value>
+            <value>
+                <fullName>22-Nosis</fullName>
+                <default>false</default>
+                <label>22-Nosis</label>
+            </value>
+            <value>
+                <fullName>12) DECLARACION A E I</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>12) DECLARACION A E I</label>
+            </value>
+            <value>
+                <fullName>13-Form. Priv y Consentimiento</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>13-Form. Priv y Consentimiento</label>
+            </value>
+            <value>
+                <fullName>14-Registro de Firmas</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>14-Registro de Firmas</label>
+            </value>
+            <value>
+                <fullName>15-Form. Priv y Consentimiento</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15-Form. Priv y Consentimiento</label>
+            </value>
+            <value>
+                <fullName>15-Form. Solicitud Inscripción</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15-Form. Solicitud Inscripción</label>
+            </value>
+            <value>
+                <fullName>16-DD JJ Res. UIF 28/2018</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>16-DD JJ Res. UIF 28/2018</label>
+            </value>
+            <value>
+                <fullName>16-Registro de Firmas</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>16-Registro de Firmas</label>
+            </value>
+            <value>
+                <fullName>17-Constancia Inscripción UIF</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>17-Constancia Inscripción UIF</label>
+            </value>
+            <value>
+                <fullName>17-Form. Solicitud Inscripción</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>17-Form. Solicitud Inscripción</label>
+            </value>
+            <value>
+                <fullName>18-Capac. Prev. Lavado Dinero</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>18-Capac. Prev. Lavado Dinero</label>
+            </value>
+            <value>
+                <fullName>18-DD JJ Res. UIF 28/2018</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>18-DD JJ Res. UIF 28/2018</label>
+            </value>
+            <value>
+                <fullName>19-Constancia Inscripción UIF</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>19-Constancia Inscripción UIF</label>
+            </value>
+            <value>
+                <fullName>19-Form. Afiliac. A Asoc de P.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>19-Form. Afiliac. A Asoc de P.</label>
+            </value>
+            <value>
+                <fullName>20-Capac. Prev. Lavado Dinero</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>20-Capac. Prev. Lavado Dinero</label>
+            </value>
+            <value>
+                <fullName>21-Form. Afiliac. A Asoc de P.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>21-Form. Afiliac. A Asoc de P.</label>
+            </value>
+            <value>
+                <fullName>25) FORMULARIO GDTR</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>25) FORMULARIO GDTR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

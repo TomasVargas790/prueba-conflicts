@@ -1,0 +1,76 @@
+{
+  "appPageId" : "7e87dfd2-17e2-4c7f-b1dd-13342b2816fd",
+  "componentName" : "c:AgentContentLayout",
+  "dataProviders" : [ ],
+  "id" : "d8d18648-85c0-4295-a7ea-7c4bb7214621",
+  "label" : "Capacitación Detail",
+  "regions" : [ {
+    "id" : "732e3589-f80d-4883-845a-f81909790b97",
+    "regionName" : "Header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "label" : "Volver",
+        "recordPage" : "None"
+      },
+      "componentName" : "c:agentBreadcrumb",
+      "id" : "a64f69ec-bc1d-4fa5-9a39-63094bfd23f2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "c:agentTrainingDetailActionsButtons",
+      "id" : "a2b4c329-d2fb-4432-ae39-e6d4ede97d0a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "7f89481d-49a4-46dd-8d40-b9813d1cf0b8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "c:agentChampionsRegistration",
+      "id" : "50bfb65a-a4c3-4f11-8d6a-712739b7d1dd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fa4926af-fefe-411a-81bb-a64c84ee0640",
+    "regionName" : "MainContent",
+    "type" : "region"
+  }, {
+    "id" : "1434cbe6-a4af-4a42-b66c-a9b77a42cc3a",
+    "regionName" : "Footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6e6ba65f-8a63-4bb2-b243-4dd23faf163e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "62728e66-21e5-47ed-bd10-3973b98a5c0d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-a10"
+}

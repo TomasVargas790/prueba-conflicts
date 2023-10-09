@@ -1,0 +1,1308 @@
+{
+  "appPageId" : "7e87dfd2-17e2-4c7f-b1dd-13342b2816fd",
+  "componentName" : "c:AgentContentLayout",
+  "dataProviders" : [ ],
+  "id" : "8b31d772-b6da-45a8-bc90-b7a1c112001a",
+  "label" : "Champions Life",
+  "regions" : [ {
+    "id" : "c936ac8a-b2e2-41e6-b47c-c4642fd4ec2e",
+    "regionName" : "Header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"font-size: 28px;\n    color: #4066B3;\">Champions Life</p>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "f3c05f3a-621c-4fbc-8014-bc27f3498d5d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "heightDesktop" : 10
+      },
+      "componentName" : "c:agentSpacer",
+      "id" : "df627e88-e294-4eb4-beaf-ad3588e73933",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCGFJYOCKZDZDH7CU6Q2BTLLJVMY",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "bannerAspectRatio" : "16:9",
+              "bannerHeight" : "256",
+              "bannerSubTitleTextColor" : "#ffffff",
+              "bannerTitleTextColor" : "#ffffff",
+              "callToActionButtonBackgroundColor" : "",
+              "callToActionButtonBackgroundColorHover" : "",
+              "callToActionButtonBorderColor" : "",
+              "callToActionButtonBorderColorHover" : "",
+              "callToActionButtonBorderStyles" : "",
+              "callToActionButtonTextColor" : "",
+              "callToActionButtonTextColorHover" : "",
+              "callToActionLabel" : "Más info",
+              "componentHoverEffect" : "none",
+              "contentWidth" : 80,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "#ffffff",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{\"callToActionLabel\":{\"linkURL\":\"{!CurrentItem.thumbUrl}\"}}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "#ffffff",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "hideTextElementsForVideo" : false,
+              "imageAltText" : "",
+              "imageUrl" : "{!CurrentItem.source.url}",
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "#ffffff",
+              "metadataTextDecoration" : "",
+              "overlayBackgroundColor" : "rgba(0, 0, 0, 0)",
+              "showButton" : false,
+              "showCaption" : false,
+              "showDateTime" : false,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "",
+              "subTitleFontSize" : "regular",
+              "textAlignment" : "center center",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:bannerLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "0bdbd168-86f9-4fd5-94c1-3d02586d46df",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "heightDesktop" : 10
+      },
+      "componentName" : "c:agentSpacer",
+      "id" : "d23911fd-0ef9-40ea-800d-b4e1e0d0644f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "f5200dd5-df54-46d5-858f-40500829e749",
+          "activeTab" : "",
+          "tabs" : [ {
+            "UUID" : "0e6709cf-1be8-4b03-9ce6-97125699f362",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "1",
+            "tabName" : "Novedades"
+          }, {
+            "UUID" : "f75f9251-62ea-44b3-97bd-f0355c2de5c5",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "2",
+            "tabName" : "Comercial"
+          }, {
+            "UUID" : "392fe8fa-e268-417d-b269-e6b009bb6c00",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "9db7c",
+            "tabName" : "Biblioteca"
+          }, {
+            "UUID" : "40df926d-1373-46d8-bcd5-431a81c686bb",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "b51ff",
+            "tabName" : "Los mejores"
+          }, {
+            "UUID" : "d1dd88f7-9e9c-45e9-927e-4620efdefa26",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "84b93",
+            "tabName" : "Galería"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "f5200dd5-df54-46d5-858f-40500829e749",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "collectionTitle" : "",
+                  "collectionTitleHeadingTag" : "h2",
+                  "columns" : 3,
+                  "rows" : "15",
+                  "showCollectionTitle" : false,
+                  "showViewMoreButton" : false,
+                  "spacing" : "medium",
+                  "viewMoreButtonBackgroundColor" : "",
+                  "viewMoreButtonBackgroundColorHover" : "",
+                  "viewMoreButtonBorderColor" : "",
+                  "viewMoreButtonBorderColorHover" : "",
+                  "viewMoreButtonLabel" : "View More Items",
+                  "viewMoreButtonPlacement" : "center",
+                  "viewMoreButtonRadius" : 4,
+                  "viewMoreButtonTextColor" : "",
+                  "viewMoreButtonTextColorHover" : ""
+                },
+                "componentName" : "forceCommunity:dynamicCollectionGrid"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Champions_Novedades"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "cover",
+                  "borderColor" : "rgba(32, 31, 39, 0)",
+                  "componentBorderStyles" : "",
+                  "componentHoverEffect" : "none",
+                  "componentPadding" : "medium",
+                  "contentBackgroundColor" : "#ffffff",
+                  "contentOffset" : "0",
+                  "contentOffsetBackgroundColor" : "#ffffff",
+                  "contentOffsetPadding" : "small",
+                  "contentPosition" : "center",
+                  "contentWidth" : 100,
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagConstraints" : "media",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "imageAlignment" : "top",
+                  "imageAltText" : "",
+                  "imageBorderColor" : "#ffffff",
+                  "imageBorderStyles" : "",
+                  "imageUrl" : "{!CurrentItem.bannerImage.url}",
+                  "mediaAspectRatio" : "16:9",
+                  "mediaHeight" : 450,
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "",
+                  "metadataTextDecoration" : "",
+                  "showDateTime" : false,
+                  "showExcerpt" : true,
+                  "showEyebrow" : false,
+                  "showEyebrowHighlight" : false,
+                  "showFeaturedMedia" : true,
+                  "showFlag" : false,
+                  "showMetadata1" : false,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : false,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : true,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "{!CurrentItem.excerpt}",
+                  "subTitleFontSize" : "regular",
+                  "subTitleTextColor" : "",
+                  "textAlignment" : "left",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "{!CurrentItem.title}",
+                  "titleFontSize" : "medium",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : true,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:flexTileLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "cd77e5a0-8a72-4270-94ee-be1bd92c8614",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0e6709cf-1be8-4b03-9ce6-97125699f362",
+        "regionLabel" : "Novedades",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "collectionTitle" : "",
+                  "collectionTitleHeadingTag" : "h2",
+                  "columns" : 3,
+                  "rows" : "15",
+                  "showCollectionTitle" : false,
+                  "showViewMoreButton" : false,
+                  "spacing" : "medium",
+                  "viewMoreButtonBackgroundColor" : "",
+                  "viewMoreButtonBackgroundColorHover" : "",
+                  "viewMoreButtonBorderColor" : "",
+                  "viewMoreButtonBorderColorHover" : "",
+                  "viewMoreButtonLabel" : "View More Items",
+                  "viewMoreButtonPlacement" : "center",
+                  "viewMoreButtonRadius" : 4,
+                  "viewMoreButtonTextColor" : "",
+                  "viewMoreButtonTextColorHover" : ""
+                },
+                "componentName" : "forceCommunity:dynamicCollectionGrid"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Champions_Comercial"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "cover",
+                  "borderColor" : "rgba(32, 31, 39, 0)",
+                  "componentBorderStyles" : "",
+                  "componentHoverEffect" : "none",
+                  "componentPadding" : "medium",
+                  "contentBackgroundColor" : "#ffffff",
+                  "contentOffset" : "0",
+                  "contentOffsetBackgroundColor" : "#ffffff",
+                  "contentOffsetPadding" : "small",
+                  "contentPosition" : "center",
+                  "contentWidth" : 100,
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagConstraints" : "media",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "imageAlignment" : "top",
+                  "imageAltText" : "",
+                  "imageBorderColor" : "rgba(255, 255, 255, 0)",
+                  "imageBorderStyles" : "",
+                  "imageUrl" : "{!CurrentItem.bannerImage.url}",
+                  "mediaAspectRatio" : "16:9",
+                  "mediaHeight" : "260",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "",
+                  "metadataTextDecoration" : "",
+                  "showDateTime" : false,
+                  "showExcerpt" : true,
+                  "showEyebrow" : false,
+                  "showEyebrowHighlight" : false,
+                  "showFeaturedMedia" : true,
+                  "showFlag" : false,
+                  "showMetadata1" : false,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : false,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : true,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "{!CurrentItem.excerpt}",
+                  "subTitleFontSize" : "regular",
+                  "subTitleTextColor" : "",
+                  "textAlignment" : "left",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "{!CurrentItem.title}",
+                  "titleFontSize" : "medium",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : true,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:flexTileLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "9186a524-f680-48ae-a889-e2520da00027",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f75f9251-62ea-44b3-97bd-f0355c2de5c5",
+        "regionLabel" : "Comercial",
+        "regionName" : "2",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"font-family: arial; font-size: 22px;\">Podés ver todo el material disponible en el Campus Virtual&nbsp;&nbsp;haciendo click </span><a href=\"https://zurichinsurance.sharepoint.com/sites/CampusVirtual/SitePages/Miscursos.aspx\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-family: arial; font-size: 22px; background-color: rgb(255, 255, 255);\">aquí. </a></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "638d0d10-763c-4645-b238-d0fcd17fadca",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "392fe8fa-e268-417d-b269-e6b009bb6c00",
+        "regionLabel" : "Biblioteca",
+        "regionName" : "9db7c",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "title" : "Los mejores",
+            "type" : "Cliente"
+          },
+          "componentName" : "c:agentTableHeader",
+          "id" : "aa737ff9-e954-4393-b7c0-439328cc2737",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "heightDesktop" : 15
+          },
+          "componentName" : "c:agentSpacer",
+          "id" : "8f22dabb-a9ce-458e-af23-27ba8d471681",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "height" : "850",
+            "recordId" : "01Z3i000000BxEVEA0"
+          },
+          "componentName" : "forceCommunity:dashboard",
+          "id" : "ed70dbb8-9152-4d4e-9158-fd2af8231667",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "height" : "1200",
+            "recordId" : "01Z8X000000tZ0UUAU"
+          },
+          "componentName" : "forceCommunity:dashboard",
+          "id" : "16d468b6-f295-440b-a96f-84a434285722",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "height" : "850",
+            "recordId" : "01Z8X000000tZ0VUAU"
+          },
+          "componentName" : "forceCommunity:dashboard",
+          "id" : "ebb3b9e7-8937-48d0-8bcd-28fb761c2080",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "40df926d-1373-46d8-bcd5-431a81c686bb",
+        "regionLabel" : "Los mejores",
+        "regionName" : "b51ff",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "contentIndicatorSpacing" : "small",
+                  "limitItems" : 40,
+                  "pauseButtonPlacement" : "left",
+                  "progressionPace" : 5,
+                  "shouldAutoScroll" : false,
+                  "showPauseButton" : true,
+                  "showProgressArrows" : true,
+                  "showProgressIndicator" : true,
+                  "slidesToShow" : 3,
+                  "spacing" : "small",
+                  "transitionSpeed" : 600
+                },
+                "componentName" : "forceCommunity:dynamicCollectionCarouselMultiSlide"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Zurich_Experience"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "contain",
+                  "bannerAspectRatio" : "16:9",
+                  "bannerHeight" : 450,
+                  "bannerSubTitleTextColor" : "#ffffff",
+                  "bannerTitleTextColor" : "#ffffff",
+                  "callToActionButtonBackgroundColor" : "",
+                  "callToActionButtonBackgroundColorHover" : "",
+                  "callToActionButtonBorderColor" : "",
+                  "callToActionButtonBorderColorHover" : "",
+                  "callToActionButtonBorderStyles" : "",
+                  "callToActionButtonTextColor" : "",
+                  "callToActionButtonTextColorHover" : "",
+                  "callToActionLabel" : "View",
+                  "componentHoverEffect" : "none",
+                  "contentWidth" : 80,
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "#ffffff",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "#ffffff",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "hideTextElementsForVideo" : false,
+                  "imageAltText" : "",
+                  "imageUrl" : "{!CurrentItem.source.url}",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "#ffffff",
+                  "metadataTextDecoration" : "",
+                  "overlayBackgroundColor" : "rgba(0, 0, 0, 0)",
+                  "showButton" : false,
+                  "showCaption" : false,
+                  "showDateTime" : false,
+                  "showEyebrow" : false,
+                  "showEyebrowHighlight" : false,
+                  "showFlag" : false,
+                  "showMetadata1" : false,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : false,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : false,
+                  "showTitleHighlight" : true,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "textAlignment" : "center center",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "h1",
+                  "titleHighlightColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : true,
+                  "videoUrl" : "{!CurrentItem.source.url}"
+                },
+                "componentName" : "forceCommunity:bannerLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "06814c23-e284-406e-b571-14c05028840f",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "heightDesktop" : 0
+          },
+          "componentName" : "c:agentSpacer",
+          "id" : "efb694b5-8c54-44c8-b951-df627a7e0872",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "heightDesktop" : 20
+          },
+          "componentName" : "c:agentSpacer",
+          "id" : "064a0e4d-7f84-4867-b102-ebcb9e73b024",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "contentIndicatorSpacing" : "small",
+                  "limitItems" : 40,
+                  "pauseButtonPlacement" : "left",
+                  "progressionPace" : 5,
+                  "shouldAutoScroll" : false,
+                  "showPauseButton" : true,
+                  "showProgressArrows" : true,
+                  "showProgressIndicator" : true,
+                  "slidesToShow" : 3,
+                  "spacing" : "medium",
+                  "transitionSpeed" : 600
+                },
+                "componentName" : "forceCommunity:dynamicCollectionCarouselMultiSlide"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Champions_Galer_a_ZurichTheBest_Primercuatrimestre"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "contain",
+                  "bannerAspectRatio" : "16:9",
+                  "bannerHeight" : 450,
+                  "bannerSubTitleTextColor" : "#ffffff",
+                  "bannerTitleTextColor" : "#ffffff",
+                  "callToActionButtonBackgroundColor" : "",
+                  "callToActionButtonBackgroundColorHover" : "",
+                  "callToActionButtonBorderColor" : "",
+                  "callToActionButtonBorderColorHover" : "",
+                  "callToActionButtonBorderStyles" : "",
+                  "callToActionButtonTextColor" : "",
+                  "callToActionButtonTextColorHover" : "",
+                  "callToActionLabel" : "View",
+                  "componentHoverEffect" : "none",
+                  "contentWidth" : 80,
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "#ffffff",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "#ffffff",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "hideTextElementsForVideo" : true,
+                  "imageAltText" : "",
+                  "imageUrl" : "{!CurrentItem.source.url}",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "#ffffff",
+                  "metadataTextDecoration" : "",
+                  "overlayBackgroundColor" : "rgba(0, 0, 0, 0)",
+                  "showButton" : false,
+                  "showCaption" : false,
+                  "showDateTime" : false,
+                  "showEyebrow" : false,
+                  "showEyebrowHighlight" : false,
+                  "showFlag" : false,
+                  "showMetadata1" : false,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : false,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : false,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "textAlignment" : "center center",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : true,
+                  "videoUrl" : "{!CurrentItem.source.url}"
+                },
+                "componentName" : "forceCommunity:bannerLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "a7546ea5-05e9-44ae-ab59-8d108311c27d",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "heightDesktop" : 20
+          },
+          "componentName" : "c:agentSpacer",
+          "id" : "ac936d99-6faa-445d-a1d1-7fd2e25bc655",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "heightDesktop" : 20
+          },
+          "componentName" : "c:agentSpacer",
+          "id" : "0eda4fa0-cf94-41d0-aa8b-45ee3a36a75c",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "contentIndicatorSpacing" : "small",
+                  "limitItems" : 40,
+                  "pauseButtonPlacement" : "left",
+                  "progressionPace" : 5,
+                  "shouldAutoScroll" : false,
+                  "showPauseButton" : true,
+                  "showProgressArrows" : true,
+                  "showProgressIndicator" : true,
+                  "slidesToShow" : 3,
+                  "spacing" : "medium",
+                  "transitionSpeed" : 600
+                },
+                "componentName" : "forceCommunity:dynamicCollectionCarouselMultiSlide"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Champions_Galer_a"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "contain",
+                  "bannerAspectRatio" : "16:9",
+                  "bannerHeight" : 450,
+                  "bannerSubTitleTextColor" : "#ffffff",
+                  "bannerTitleTextColor" : "#ffffff",
+                  "callToActionButtonBackgroundColor" : "",
+                  "callToActionButtonBackgroundColorHover" : "",
+                  "callToActionButtonBorderColor" : "",
+                  "callToActionButtonBorderColorHover" : "",
+                  "callToActionButtonBorderStyles" : "",
+                  "callToActionButtonTextColor" : "",
+                  "callToActionButtonTextColorHover" : "",
+                  "callToActionLabel" : "View",
+                  "componentHoverEffect" : "none",
+                  "contentWidth" : 80,
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "#ffffff",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "#ffffff",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "hideTextElementsForVideo" : true,
+                  "imageAltText" : "",
+                  "imageUrl" : "{!CurrentItem.source.url}",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "#ffffff",
+                  "metadataTextDecoration" : "",
+                  "overlayBackgroundColor" : "rgba(0, 0, 0, 0)",
+                  "showButton" : false,
+                  "showCaption" : false,
+                  "showDateTime" : false,
+                  "showEyebrow" : false,
+                  "showEyebrowHighlight" : false,
+                  "showFlag" : false,
+                  "showMetadata1" : false,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : false,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : false,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "textAlignment" : "center center",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : true,
+                  "videoUrl" : "{!CurrentItem.source.url}"
+                },
+                "componentName" : "forceCommunity:bannerLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "14375067-d4e6-4216-bca6-410d9f2d7eed",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "heightDesktop" : 20
+          },
+          "componentName" : "c:agentSpacer",
+          "id" : "be5eaa9c-3083-4902-a933-c273cd2a28bf",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "heightDesktop" : 20
+          },
+          "componentName" : "c:agentSpacer",
+          "id" : "df667dc0-e1b5-4fa5-a429-8a17985b8a7d",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "contentIndicatorSpacing" : "small",
+                  "limitItems" : 40,
+                  "pauseButtonPlacement" : "left",
+                  "progressionPace" : 5,
+                  "shouldAutoScroll" : false,
+                  "showPauseButton" : true,
+                  "showProgressArrows" : true,
+                  "showProgressIndicator" : true,
+                  "slidesToShow" : 3,
+                  "spacing" : "medium",
+                  "transitionSpeed" : 600
+                },
+                "componentName" : "forceCommunity:dynamicCollectionCarouselMultiSlide"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Champions_Galer_a_ZurichTheBest_Tercertrimestre"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "contain",
+                  "bannerAspectRatio" : "16:9",
+                  "bannerHeight" : 450,
+                  "bannerSubTitleTextColor" : "#ffffff",
+                  "bannerTitleTextColor" : "#ffffff",
+                  "callToActionButtonBackgroundColor" : "",
+                  "callToActionButtonBackgroundColorHover" : "",
+                  "callToActionButtonBorderColor" : "",
+                  "callToActionButtonBorderColorHover" : "",
+                  "callToActionButtonBorderStyles" : "",
+                  "callToActionButtonTextColor" : "",
+                  "callToActionButtonTextColorHover" : "",
+                  "callToActionLabel" : "View",
+                  "componentHoverEffect" : "none",
+                  "contentWidth" : 80,
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "#ffffff",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "#ffffff",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "hideTextElementsForVideo" : true,
+                  "imageAltText" : "",
+                  "imageUrl" : "{!CurrentItem.source.url}",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "#ffffff",
+                  "metadataTextDecoration" : "",
+                  "overlayBackgroundColor" : "rgba(0, 0, 0, 0)",
+                  "showButton" : false,
+                  "showCaption" : false,
+                  "showDateTime" : false,
+                  "showEyebrow" : false,
+                  "showEyebrowHighlight" : false,
+                  "showFlag" : false,
+                  "showMetadata1" : false,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : false,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : false,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "textAlignment" : "center center",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : true,
+                  "videoUrl" : "{!CurrentItem.source.url}"
+                },
+                "componentName" : "forceCommunity:bannerLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "4094c011-c7c0-408b-91b7-b5b3d2ea5475",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "heightDesktop" : 20
+          },
+          "componentName" : "c:agentSpacer",
+          "id" : "ddfb508b-1a3e-497c-bccd-025ea6bf8f78",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "heightDesktop" : 20
+          },
+          "componentName" : "c:agentSpacer",
+          "id" : "3964aeff-f415-4978-8329-6428f01e92b2",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "contentIndicatorSpacing" : "small",
+                  "limitItems" : 40,
+                  "pauseButtonPlacement" : "left",
+                  "progressionPace" : 5,
+                  "shouldAutoScroll" : false,
+                  "showPauseButton" : true,
+                  "showProgressArrows" : true,
+                  "showProgressIndicator" : true,
+                  "slidesToShow" : 3,
+                  "spacing" : "medium",
+                  "transitionSpeed" : 600
+                },
+                "componentName" : "forceCommunity:dynamicCollectionCarouselMultiSlide"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Socios_Champions_Galer_a_Zurich_Innovation_Championship_2023"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "contain",
+                  "bannerAspectRatio" : "16:9",
+                  "bannerHeight" : 450,
+                  "bannerSubTitleTextColor" : "#ffffff",
+                  "bannerTitleTextColor" : "#ffffff",
+                  "callToActionButtonBackgroundColor" : "",
+                  "callToActionButtonBackgroundColorHover" : "",
+                  "callToActionButtonBorderColor" : "",
+                  "callToActionButtonBorderColorHover" : "",
+                  "callToActionButtonBorderStyles" : "",
+                  "callToActionButtonTextColor" : "",
+                  "callToActionButtonTextColorHover" : "",
+                  "callToActionLabel" : "View",
+                  "componentHoverEffect" : "none",
+                  "contentWidth" : 80,
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "#ffffff",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "#ffffff",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "hideTextElementsForVideo" : true,
+                  "imageAltText" : "",
+                  "imageUrl" : "{!CurrentItem.source.url}",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "#ffffff",
+                  "metadataTextDecoration" : "",
+                  "overlayBackgroundColor" : "rgba(0, 0, 0, 0)",
+                  "showButton" : false,
+                  "showCaption" : false,
+                  "showDateTime" : false,
+                  "showEyebrow" : false,
+                  "showEyebrowHighlight" : false,
+                  "showFlag" : false,
+                  "showMetadata1" : false,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : false,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : false,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "textAlignment" : "center center",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : true,
+                  "videoUrl" : "{!CurrentItem.source.url}"
+                },
+                "componentName" : "forceCommunity:bannerLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "fe9a76e9-52e8-4439-a53b-e6f6f790ddb1",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "heightDesktop" : 20
+          },
+          "componentName" : "c:agentSpacer",
+          "id" : "d0ac8e47-ddfb-481a-9b7a-b85a448cd81b",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "heightDesktop" : 20
+          },
+          "componentName" : "c:agentSpacer",
+          "id" : "df3d1c04-e719-419f-a1c7-ea3fc577bf8f",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "contentIndicatorSpacing" : "small",
+                  "limitItems" : 40,
+                  "pauseButtonPlacement" : "left",
+                  "progressionPace" : 5,
+                  "shouldAutoScroll" : false,
+                  "showPauseButton" : true,
+                  "showProgressArrows" : true,
+                  "showProgressIndicator" : true,
+                  "slidesToShow" : 3,
+                  "spacing" : "medium",
+                  "transitionSpeed" : 600
+                },
+                "componentName" : "forceCommunity:dynamicCollectionCarouselMultiSlide"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Socios_Champions_Galer_a_ZurichArgentinaSwing"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "contain",
+                  "bannerAspectRatio" : "16:9",
+                  "bannerHeight" : 450,
+                  "bannerSubTitleTextColor" : "#ffffff",
+                  "bannerTitleTextColor" : "#ffffff",
+                  "callToActionButtonBackgroundColor" : "",
+                  "callToActionButtonBackgroundColorHover" : "",
+                  "callToActionButtonBorderColor" : "",
+                  "callToActionButtonBorderColorHover" : "",
+                  "callToActionButtonBorderStyles" : "",
+                  "callToActionButtonTextColor" : "",
+                  "callToActionButtonTextColorHover" : "",
+                  "callToActionLabel" : "View",
+                  "componentHoverEffect" : "none",
+                  "contentWidth" : 80,
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "#ffffff",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "#ffffff",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "hideTextElementsForVideo" : true,
+                  "imageAltText" : "",
+                  "imageUrl" : "{!CurrentItem.source.url}",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "#ffffff",
+                  "metadataTextDecoration" : "",
+                  "overlayBackgroundColor" : "rgba(0, 0, 0, 0)",
+                  "showButton" : false,
+                  "showCaption" : false,
+                  "showDateTime" : false,
+                  "showEyebrow" : false,
+                  "showEyebrowHighlight" : false,
+                  "showFlag" : false,
+                  "showMetadata1" : false,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : false,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : false,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "textAlignment" : "center center",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : true,
+                  "videoUrl" : "{!CurrentItem.source.url}"
+                },
+                "componentName" : "forceCommunity:bannerLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "fb01f5d4-9a95-4496-b425-6b3c22792637",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "heightDesktop" : 20
+          },
+          "componentName" : "c:agentSpacer",
+          "id" : "709195fd-9a3a-4960-99c2-72bf30b5b77d",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d1dd88f7-9e9c-45e9-927e-4620efdefa26",
+        "regionLabel" : "Galería",
+        "regionName" : "84b93",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0093a3fa-cd04-4fe9-af29-3c77c15d9434",
+    "regionName" : "MainContent",
+    "type" : "region"
+  }, {
+    "id" : "c6b864f0-6559-4837-a710-cbcb3bb565b7",
+    "regionName" : "Footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Champions Life"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "0d6280f7-397e-4714-9e93-62f40d640809",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d3cfd96c-dfca-486e-a38d-a93c6cf94111",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-championslife"
+}

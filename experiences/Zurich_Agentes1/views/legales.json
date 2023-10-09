@@ -1,0 +1,61 @@
+{
+  "appPageId" : "7e87dfd2-17e2-4c7f-b1dd-13342b2816fd",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "2ef901fa-77d4-4daa-9290-5f8c9056df6c",
+  "label" : "Legales",
+  "regions" : [ {
+    "id" : "b4ec63b1-6d2f-4891-84cf-0b2048087ec0",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:agentPolicesProtectionData",
+      "id" : "b839d437-b7f2-4ef2-bedc-1d5dd4ecd3bf",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "284fe6e8-a869-4fd5-80da-a644d94ea31c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:agentToastCookiesNotification",
+      "id" : "17801661-204e-4c5d-9db6-8a3f2cb73f81",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:agentFooterWrapper",
+      "id" : "1a8552e7-7b70-45df-b509-ebe5280e82aa",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cb326f50-ef05-4109-bf74-7cac55abc7c2",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "<meta name=\"robots\" content=\"noindex\">",
+        "description" : "",
+        "title" : "Legales"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f4127b40-55f1-4d8d-8cc5-1779346a63c2",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "33bc429c-beec-47b8-b259-f562571619b9",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "4rvrDvbiE3nzPCjVvnhqhNtb5FWpKI",
+  "type" : "view",
+  "viewType" : "custom-legales"
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdditionalFunctionalities__c</fullName>
+    <externalId>false</externalId>
+    <label>Funciones Adicionales</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Role__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>VerComisiones</fullName>
+                <default>false</default>
+                <label>Ver Comisiones</label>
+            </value>
+            <value>
+                <fullName>CambiarMails</fullName>
+                <default>false</default>
+                <label>Cambiar Mails</label>
+            </value>
+            <value>
+                <fullName>CreationSSVidaNOULSegGenerales</fullName>
+                <default>false</default>
+                <label>Alta SS Vida no UL y Seg Generales</label>
+            </value>
+            <value>
+                <fullName>ActivityResolutionVida</fullName>
+                <default>false</default>
+                <label>Resolución Actividades Vida</label>
+            </value>
+            <value>
+                <fullName>ActivityResolutionVidaNOULSegGenerales</fullName>
+                <default>false</default>
+                <label>Resolución Actividades Vida no UL y Seg Generales</label>
+            </value>
+            <value>
+                <fullName>CreationSSVida</fullName>
+                <default>false</default>
+                <label>Alta SS Vida</label>
+            </value>
+            <value>
+                <fullName>LeadsRegistrationPA</fullName>
+                <default>false</default>
+                <label>Alta de Prospectos PA</label>
+            </value>
+            <value>
+                <fullName>LeadsReadPA</fullName>
+                <default>false</default>
+                <label>Lectura de Prospectos PA</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Agente</controllingFieldValue>
+            <controllingFieldValue>Administrativo</controllingFieldValue>
+            <valueName>VerComisiones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agente</controllingFieldValue>
+            <controllingFieldValue>Administrativo</controllingFieldValue>
+            <valueName>CambiarMails</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agente</controllingFieldValue>
+            <controllingFieldValue>Administrativo</controllingFieldValue>
+            <valueName>CreationSSVidaNOULSegGenerales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agente</controllingFieldValue>
+            <controllingFieldValue>Administrativo</controllingFieldValue>
+            <valueName>ActivityResolutionVida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agente</controllingFieldValue>
+            <controllingFieldValue>Administrativo</controllingFieldValue>
+            <valueName>ActivityResolutionVidaNOULSegGenerales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agente</controllingFieldValue>
+            <controllingFieldValue>Administrativo</controllingFieldValue>
+            <valueName>CreationSSVida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agente</controllingFieldValue>
+            <controllingFieldValue>Administrativo</controllingFieldValue>
+            <valueName>LeadsRegistrationPA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agente</controllingFieldValue>
+            <controllingFieldValue>Administrativo</controllingFieldValue>
+            <valueName>LeadsReadPA</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

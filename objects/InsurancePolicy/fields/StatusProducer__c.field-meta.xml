@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StatusProducer__c</fullName>
+    <description>Estado a mostrar en los portales de agentes</description>
+    <externalId>false</externalId>
+    <label>Estado Productor</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Activa</fullName>
+                <default>false</default>
+                <label>Activa</label>
+            </value>
+            <value>
+                <fullName>Vigente</fullName>
+                <default>false</default>
+                <label>Vigente</label>
+            </value>
+            <value>
+                <fullName>Vencida</fullName>
+                <default>false</default>
+                <label>Vencida</label>
+            </value>
+            <value>
+                <fullName>Saldada</fullName>
+                <default>false</default>
+                <label>Saldada</label>
+            </value>
+            <value>
+                <fullName>RescateAnterior</fullName>
+                <default>false</default>
+                <label>Rescate (anterior)</label>
+            </value>
+            <value>
+                <fullName>Rescatada</fullName>
+                <default>false</default>
+                <label>Rescatada</label>
+            </value>
+            <value>
+                <fullName>Renovada</fullName>
+                <default>false</default>
+                <label>Renovada</label>
+            </value>
+            <value>
+                <fullName>Propuesta</fullName>
+                <default>false</default>
+                <label>Propuesta</label>
+            </value>
+            <value>
+                <fullName>NTUPospuesta</fullName>
+                <default>false</default>
+                <label>NTU Pospuesta</label>
+            </value>
+            <value>
+                <fullName>NTUDeclinada</fullName>
+                <default>false</default>
+                <label>NTU Declinada</label>
+            </value>
+            <value>
+                <fullName>NTU</fullName>
+                <default>false</default>
+                <label>NTU</label>
+            </value>
+            <value>
+                <fullName>MaduradaRescatada</fullName>
+                <default>false</default>
+                <label>Madurada Rescatada</label>
+            </value>
+            <value>
+                <fullName>MaduradaConAportes</fullName>
+                <default>false</default>
+                <label>Madurada con Aportes</label>
+            </value>
+            <value>
+                <fullName>MaduradaCaducada</fullName>
+                <default>false</default>
+                <label>Madurada Caducada</label>
+            </value>
+            <value>
+                <fullName>Madurada</fullName>
+                <default>false</default>
+                <label>Madurada</label>
+            </value>
+            <value>
+                <fullName>Fallecido</fullName>
+                <default>false</default>
+                <label>Fallecido</label>
+            </value>
+            <value>
+                <fullName>EmitidaNoVigente</fullName>
+                <default>false</default>
+                <label>Emitida No Vigente</label>
+            </value>
+            <value>
+                <fullName>CanceladaPorCompaniaDesdeInicio</fullName>
+                <default>false</default>
+                <label>Cancelada por Compañía desde Inicio</label>
+            </value>
+            <value>
+                <fullName>CanceladaPorCompania</fullName>
+                <default>false</default>
+                <label>Cancelada por Compania</label>
+            </value>
+            <value>
+                <fullName>CanceladaPorClienteDesdeInicio</fullName>
+                <default>false</default>
+                <label>Cancelada por Cliente desde Inicio</label>
+            </value>
+            <value>
+                <fullName>CanceladaPorCliente</fullName>
+                <default>false</default>
+                <label>Cancelada por Cliente</label>
+            </value>
+            <value>
+                <fullName>CanceladaDesdeInicio</fullName>
+                <default>false</default>
+                <label>Cancelada desde Inicio</label>
+            </value>
+            <value>
+                <fullName>Caducada</fullName>
+                <default>false</default>
+                <label>Caducada</label>
+            </value>
+            <value>
+                <fullName>Anulada</fullName>
+                <default>false</default>
+                <label>Anulada</label>
+            </value>
+            <value>
+                <fullName>AnuladaDesdeInicio</fullName>
+                <default>false</default>
+                <label>Anulada desde Inicio</label>
+            </value>
+            <value>
+                <fullName>AnuladaPorCliente</fullName>
+                <default>false</default>
+                <label>Anulada por Cliente</label>
+            </value>
+            <value>
+                <fullName>AnuladaPorClienteDesdeInicio</fullName>
+                <default>false</default>
+                <label>Anulada por Cliente desde Inicio</label>
+            </value>
+            <value>
+                <fullName>AnuladaPorCompania</fullName>
+                <default>false</default>
+                <label>Anulada por Compania</label>
+            </value>
+            <value>
+                <fullName>AnuladaPorCompaniaDesdeInicio</fullName>
+                <default>false</default>
+                <label>Anulada por Compañía desde Inicio</label>
+            </value>
+            <value>
+                <fullName>A</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>A</label>
+            </value>
+            <value>
+                <fullName>D</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>D</label>
+            </value>
+            <value>
+                <fullName>L</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>L</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

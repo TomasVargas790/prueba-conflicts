@@ -1,0 +1,133 @@
+{
+  "appPageId" : "7e87dfd2-17e2-4c7f-b1dd-13342b2816fd",
+  "componentName" : "c:AgentContentLayout",
+  "dataProviders" : [ ],
+  "id" : "7181a404-8350-49bd-a23f-13c62f2c5bfa",
+  "label" : "User Profile",
+  "regions" : [ {
+    "id" : "f5d17707-7c7d-4176-ba67-39602c191d69",
+    "regionName" : "Header",
+    "type" : "region"
+  }, {
+    "id" : "37574fcf-2e68-492e-972b-b662f9312ca2",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "6839f057-4a96-4728-9208-d86c3aa5afcb",
+    "regionName" : "Footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><b style=\"font-size: 14px; color: rgb(0, 71, 178); background-color: rgb(255, 255, 255);\">Usuario﻿</b></p><p><span style=\"color: rgb(0, 71, 178); font-size: 20px;\">{!CurrentUser.firstName} {!CurrentUser.lastName}</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "48bff282-9292-44a3-a49c-8c64816aa504",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "heightDesktop" : 20
+      },
+      "componentName" : "c:agentSpacer",
+      "id" : "cecfc0d1-3e72-443e-ba74-e2f4b0a12ffc",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "dd203f43-ba93-41db-bf84-0e8896c20c78",
+          "activeTab" : "",
+          "tabs" : [ {
+            "UUID" : "f1f8dcad-c8a2-4013-a111-f086f511e970",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "1",
+            "tabName" : "Mi información"
+          }, {
+            "UUID" : "5615573d-f43e-4379-9ea3-c3f55da6397d",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "2",
+            "tabName" : "Información de las cuentas"
+          }, {
+            "UUID" : "380fe6f7-5344-4788-8164-4581d50b8aa4",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "3",
+            "tabName" : "Mails de contacto"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "dd203f43-ba93-41db-bf84-0e8896c20c78",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "c:agentProfile",
+          "id" : "576d2fda-89e7-45cb-be45-c33cc17c8441",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "c:agentProfileChangePassword",
+          "id" : "bd61244a-324d-4747-8b50-d1d0384baccb",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f1f8dcad-c8a2-4013-a111-f086f511e970",
+        "regionLabel" : "Mi información",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "c:agentProfileAccountInfo",
+          "id" : "54d0d8cb-cce7-4ab8-95ac-028c6abd014e",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5615573d-f43e-4379-9ea3-c3f55da6397d",
+        "regionLabel" : "Información de las cuentas",
+        "regionName" : "2",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:agentProfileContactEmails",
+          "id" : "ce17cbe9-299d-4621-95b1-156bbea2c458",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "380fe6f7-5344-4788-8164-4581d50b8aa4",
+        "regionLabel" : "Mails de contacto",
+        "regionName" : "3",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "eee8f26c-01fb-4ef7-a21d-b49294838450",
+    "regionName" : "MainContent",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-005"
+}

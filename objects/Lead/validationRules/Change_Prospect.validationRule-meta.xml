@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_Prospect</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+	OR(
+		ISCHANGED(Status),
+		ISCHANGED(Salutation),
+		ISCHANGED(FirstName),
+		ISCHANGED(MiddleName),
+		ISCHANGED(Suffix),
+		ISCHANGED(LastName),
+		ISCHANGED(PartnerAccount__c)
+	),
+	$RecordType.DeveloperName = &quot;Prospect&quot;,
+	ModificationEnabled__c = FALSE,
+	OR(
+		AND(
+			ISPICKVAL($User.UserType, &quot;Standard&quot;),
+			$Profile.Name &lt;&gt; &quot;Administrador del sistema&quot;,
+			$Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+			NOT($Permission.Nuevo_Prospecto_Backend)
+		),
+		ISPICKVAL($User.UserType, &quot;PowerPartner&quot;)
+	)
+)</errorConditionFormula>
+    <errorMessage>No es posible modificar el Prospecto</errorMessage>
+</ValidationRule>

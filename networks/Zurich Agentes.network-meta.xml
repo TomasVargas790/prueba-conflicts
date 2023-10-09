@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Network xmlns="http://soap.sforce.com/2006/04/metadata">
+    <allowInternalUserLogin>false</allowInternalUserLogin>
+    <allowMembersToFlag>false</allowMembersToFlag>
+    <changePasswordTemplate>ZurichAgents/AgentChangePassword</changePasswordTemplate>
+    <communityRoles>
+        <customerUserRole>Agente</customerUserRole>
+        <employeeUserRole>Employee</employeeUserRole>
+        <partnerUserRole>Agente</partnerUserRole>
+    </communityRoles>
+    <disableReputationRecordConversations>true</disableReputationRecordConversations>
+    <emailSenderAddress>acceso.agentes.noreply@zurich.com</emailSenderAddress>
+    <emailSenderName>Zurich Agentes</emailSenderName>
+    <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
+    <enableDirectMessages>true</enableDirectMessages>
+    <enableExperienceBundleBasedSnaOverrideEnabled>true</enableExperienceBundleBasedSnaOverrideEnabled>
+    <enableGuestChatter>false</enableGuestChatter>
+    <enableGuestFileAccess>false</enableGuestFileAccess>
+    <enableGuestMemberVisibility>false</enableGuestMemberVisibility>
+    <enableInvitation>false</enableInvitation>
+    <enableKnowledgeable>false</enableKnowledgeable>
+    <enableMemberVisibility>false</enableMemberVisibility>
+    <enableNicknameDisplay>true</enableNicknameDisplay>
+    <enablePrivateMessages>false</enablePrivateMessages>
+    <enableReputation>false</enableReputation>
+    <enableShowAllNetworkSettings>false</enableShowAllNetworkSettings>
+    <enableSiteAsContainer>true</enableSiteAsContainer>
+    <enableTalkingAboutStats>true</enableTalkingAboutStats>
+    <enableTopicAssignmentRules>true</enableTopicAssignmentRules>
+    <enableTopicSuggestions>false</enableTopicSuggestions>
+    <enableUpDownVote>false</enableUpDownVote>
+    <forgotPasswordTemplate>ZurichAgents/AgentChangePassword</forgotPasswordTemplate>
+    <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
+    <maxFileSizeKb>25600</maxFileSizeKb>
+    <networkMemberGroups>
+        <permissionSet>Alta_Usuarios</permissionSet>
+        <permissionSet>Ver_como_Usuarios</permissionSet>
+        <permissionSet>Administrar_Usuarios</permissionSet>
+        <profile>Admin</profile>
+        <profile>Agentes Soporte</profile>
+        <profile>Agentes Ejecutivo</profile>
+        <profile>Agentes Agente</profile>
+        <profile>Agentes Administrativo</profile>
+        <profile>Agentes Vendedor</profile>
+        <profile>Zurich Backend</profile>
+        <profile>Zurich Backend 2</profile>
+        <profile>IT Soporte</profile>
+    </networkMemberGroups>
+    <networkPageOverrides>
+        <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
+        <forgotPasswordPageOverrideSetting>Standard</forgotPasswordPageOverrideSetting>
+        <homePageOverrideSetting>Designer</homePageOverrideSetting>
+        <loginPageOverrideSetting>VisualForce</loginPageOverrideSetting>
+        <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
+    </networkPageOverrides>
+    <picassoSite>Zurich_Agentes1</picassoSite>
+    <selfRegistration>false</selfRegistration>
+    <sendWelcomeEmail>false</sendWelcomeEmail>
+    <site>Zurich_Agentes</site>
+    <siteArchiveStatus>NotArchived</siteArchiveStatus>
+    <status>Live</status>
+    <tabs>
+        <defaultTab>home</defaultTab>
+        <standardTab>Chatter</standardTab>
+    </tabs>
+    <urlPathPrefix>zurichagentes</urlPathPrefix>
+    <welcomeTemplate>ZurichAgents/AgentWelcomeEmailTemplate</welcomeTemplate>
+</Network>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>PRODUCT2.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Branch__c</field>
+        <operation>equals</operation>
+        <value>Caucion</value>
+    </filters>
+    <label>Productos</label>
+</ListView>
