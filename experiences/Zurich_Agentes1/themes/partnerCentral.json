@@ -1,0 +1,267 @@
+{
+  "activeBrandingSetId" : "eb0b6285-5176-4bc1-8f63-3e697bdc474e",
+  "customCSS" : "@font-face {\n    font-family: 'ZurichSans';\n    font-style: normal;\n    font-weight: 200;\n    src: url('/resource/Productor/Assets/Fonts/ZurichSans-Light.ttf');\n    font-display: swap;\n}\n\n@font-face {\n    font-family: 'ZurichSans';\n    font-style: normal;\n    font-weight: 300;\n    src: url('/resource/Productor/Assets/Fonts/ZurichSans-Light.ttf');\n    font-display: swap;\n}\n\n@font-face {\n    font-family: 'ZurichSans';\n    font-style: normal;\n    font-weight: 400;\n    src: url('/resource/Productor/Assets/Fonts/ZurichSans-Regular.ttf');\n    font-display: swap;\n}\n\n@font-face {\n    font-family: 'ZurichSans';\n    font-style: normal;\n    font-weight: 600;\n    src: url('/resource/Productor/Assets/Fonts/ZurichSans-SemiBold.ttf');\n    font-display: swap;\n}\n\n@font-face {\n    font-family: 'ZurichSans';\n    font-style: normal;\n    font-weight: 500;\n    src: url('/resource/Productor/Assets/Fonts/ZurichSans-Medium.ttf');\n    font-display: swap;\n}\n\n@font-face {\n    font-family: 'ZurichSans';\n    font-style: normal;\n    font-weight: 700;\n    src: url('/resource/Productor/Assets/Fonts/ZurichSans-Bold.ttf');\n    font-display: swap;\n}\n\n@font-face {\n    font-family: 'frutiger55_roman';\n    font-style: normal;\n    src: url('/resource/Productor/Assets/Fonts/frutiger55_roman.ttf');\n    font-display: swap;\n}\n\n.cHeader .forceCommunityGlobalNavigation {\n    display: none;\n}\n\n.siteforcePrmBody .cHeaderTopInternalWrapper {\n    max-width: 100%!important;\n}\n\n.siteforcePrmBody .cHeader .cBrandingLogo {\n    width: 115px!important;\n}\n\n/* Styles Schedule */\n@font-face {\n    font-family: 'icon-font';\n\tfont-style: normal;\n    font-weight: normal;\n    src: url('/resource/Autogestion/Assets/Styles/Fonts/zurich_v200/icon-font.eot?29825999');\n    src: url('/resource/Autogestion/Assets/Styles/Fonts/zurich_v200/icon-font.eot?29825999#iefix') format('embedded-opentype'),\n        url('/resource/Autogestion/Assets/Styles/Fonts/zurich_v200/icon-font.woff2?29825999') format('woff2'),\n        url('/resource/Autogestion/Assets/Styles/Fonts/zurich_v200/icon-font.woff?29825999') format('woff'),\n        url('/resource/Autogestion/Assets/Styles/Fonts/zurich_v200/icon-font.ttf?29825999') format('truetype'),\n        url('/resource/Autogestion/Assets/Styles/Fonts/zurich_v200/icon-font.svg?29825999#fontello') format('svg');\n}\n\n#LoginNew .cHeaderPanel {\n    z-index:1;\n}\n\n.uiTabItem.hidden {\n    /* display:none!important */\n    display: inline-block !important;\n}\n\n\n.cCenterPanel {\n  min-height: calc(100vh - 189px - 140px);\n}\n.footer-container {\n  height: 140px;\n}\n\n.comm-page-custom-productores .prospects .export-button {\n    display:none!important;\n}\n\n.slds-card{\nborder-width:0px !important;\n}\n\nbutton.slds-input__icon.slds-input__icon_right.slds-button.slds-button_icon {\n    margin-left: 30px;\n}\n\n.slds-form-element__control.slds-grow.slds-input-has-icon.slds-input-has-icon_left-right{\n    width:100%;\n    height:33px;\n}\n\n/*Estilos V2 */\nvlocity_ins-omniscript-custom-lwc.slds-p-right_small.slds-m-bottom_xx-small.slds-show_inline-block.slds-size_12-of-12.slds-medium-size_12-of-12 {\n    grid-column: span 2;\n    padding: 0;\n    margin: 0;\n}\n\n.cCenterPanel.slds-m-top--x-large.slds-p-horizontal--medium,\n[data-omni-key=\"personalData\"].slds-grid.slds-wrap.slds-p-vertical_small.omniscript-step__body,\nslot.slds-grid.slds-wrap.slds-size_1-of-1.slds-p-left_medium,\nvlocity_ins-omniscript-select.slds-p-right_small.slds-m-bottom_xx-small.slds-show_inline-block.slds-size_12-of-12.slds-medium-size_6-of-12.omni-read-only,\nvlocity_ins-omniscript-text.slds-p-right_small.slds-m-bottom_xx-small.slds-show_inline-block.slds-size_12-of-12.slds-medium-size_6-of-12.omni-read-only,\nvlocity_ins-omniscript-typeahead.omni-typeahead.omni-lookup.slds-p-right_small.slds-m-bottom_xx-small.slds-show_inline-block.slds-size_12-of-12, \nc-zurich_select-custom.slds-p-right_small.slds-m-bottom_xx-small.slds-show_inline-block.slds-size_12-of-12.slds-medium-size_6-of-12,\nvlocity_ins-omniscript-typeahead-block.slds-m-bottom_xx-small.slds-show_inline-block.slds-size_12-of-12.slds-medium-size_6-of-12,\n.slds-grid.slds-wrap.slds-p-vertical_small.omniscript-step__body,\n.slds-col.slds-p-around_x-small.slds-size_12-of-12{\n    padding: 0;\n    width: 100%;\n    margin-bottom: 0;\n}\n\n.vlc-separator.slds-border_top.slds-m-top_x-small.slds-m-bottom_xx-small.slds-m-horizontal_medium {\n    display: none;\n}\n\nvlocity_ins-omniscript-step {\n    width: 70%;\n    margin: auto;\n}\n\n[data-omni-key=\"Block4\"],\n[data-omni-key=\"Block5\"] {\n    display: none;\n}\n\n[data-omni-key=\"Block6\"] {\n    width: 100%;\n    padding: 0;\n    margin: 0;\n}\n\n[data-omni-key=\"Block6\"] > ul > li > section.slds-accordion__section.slds-p-horizontal_none.slds-is-open,\n[data-omni-key=\"Block6\"] > ul > li > section.slds-accordion__section.slds-p-horizontal_none.slds-is-open > .slds-accordion__summary {\n    padding: 0;\n}\n\n.omni-block_content[vlocity_ins-omniscriptBlock_omniscriptBlock] {padding: 0}\n\n.slds-input[readonly] {padding: 0 1rem;}\n\n@media (min-width: 48em) {\n    .omniscript-body[data-stepborder='right'][c-zurichErrorServiceEnglish_zurichErrorServiceEnglish] {\n    border-right: 0px !important;\n    }\n}\n\n/*@media (max-width: 720px) {\n    vlocity_ins-omniscript-step {\n        width: 90%;\n        margin: auto;\n    }\n    \n    vlocity_ins-omniscript-select.slds-p-right_small.slds-m-bottom_xx-small.slds-show_inline-block.slds-size_12-of-12.slds-medium-size_6-of-12.omni-read-only,\n    vlocity_ins-omniscript-text.slds-p-right_small.slds-m-bottom_xx-small.slds-show_inline-block.slds-size_12-of-12.slds-medium-size_6-of-12.omni-read-only, \n    vlocity_ins-omniscript-typeahead-block.slds-m-bottom_xx-small.slds-show_inline-block.slds-size_12-of-12.slds-medium-size_6-of-12,\n    c-zurich_select-custom.slds-p-right_small.slds-m-bottom_xx-small.slds-show_inline-block.slds-size_12-of-12.slds-medium-size_6-of-12 {\n        grid-column: span 2;\n    }\n    \n}*/",
+  "developerName" : "prm",
+  "id" : "0ee417f5-5359-440d-a7ce-78325edc67b8",
+  "label" : "Partner Central",
+  "layouts" : {
+    "4rvrDvbiE3nzPCjVvnhqhNtb5FWpKI" : "912e6a99-ed0d-4a81-a97b-1e0f6b46478d",
+    "Inner" : "4f83616e-ebe2-4d53-8cfa-7978926c8fd1",
+    "Login" : "7911eebc-d076-463b-af64-4ef8a21614a6",
+    "ServiceNotAvailable" : "761184bd-add8-455b-91fc-af47852d2b90"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "7911eebc-d076-463b-af64-4ef8a21614a6",
+    "label" : "Login",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<div style=\"width: 100%;z-index:100;display: flex;border-bottom: 3px solid;border-color: #039;flex-wrap: wrap;justify-content: flex-start;background-color:white;\">\n            <img id=\"imgSsnLogo\" src=\"https://one.zurich.com.ar/ad/images/zurich_logo_Master.png\" style=\"overflow: auto;border: 0px;max-width: 251px;height: 80px;object-fit: cover;object-position: left;justify-self: flex-start;\"></img>\n            <p style=\"font-weight: bold;font-size: 15px;background: transparent;color: #003399;font-family: Verdana,Arial,Helvetica,sans-serif;display: flex;align-items: center;margin: auto; padding-right: 15%;\">¡Te damos la Bienvenida a One! La plataforma comercial de Zurich</p>\n</div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "e6b9b384-bad4-4efd-866e-04af989dad0e",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "a379fafc-8a39-4f87-886d-4861eeb547dd",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "4cbea81f-af6b-4199-9d13-de2bfa6a131d",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<div style=\"width: 100%;height: auto;background: white;border-top: 4px solid #039;display: flex;flex-wrap: wrap;justify-content: space-between;\">\n                <div style=\"float: left;padding: 0px 0px 0px 0px;\">\n                    <a href=\"https://one.zurich.com.ar/ad/ssn.aspx\" id=\"ctl00_ucFooter_aSsnUrl\" rel=\"Contents\" style=\"margin-right: 20%\" target=\"_self\">\n                        <img id=\"ctl00_ucFooter_imgSsnLogo\" src=\"https://one.zurich.com.ar/ad/images/ssnlogo.png\" style=\"border-width:0px;border-color: silver; border: 0px; border-style: solid\"></img>\n                    </a>\n                </div>\n                <div style=\"float: left;font-size: 11px;font-family: Verdana,Arial,Helvetica,sans-serif;padding-right: 10%;\">\n                    <p>\n                        <a href=\"https://one.zurich.com.ar/ad/Privacidad.aspx\" id=\"ctl00_ucFooter_lnkPrivacidad\" style=\"color:#1E50A7;\">Protección Datos Personales - Legales</a>\n                    </p>\n                    <p style=\"margin-left: 2%;\">\n                        Copyright ©\n                        2021\n                        Zurich Argentina\n                    </p>\n                </div>\n                \n                <div style=\"display: flex;width: 100px;justify-content: space-between;\">\n                    <div style=\"margin: 0px;float: left;padding: 1%;\">\n                        <a href=\"https://servicios1.afip.gov.ar/clavefiscal/qr/response.aspx?qr=U4iPCyFWHKtCcpkex9ooaw,,\" id=\"ctl00_ucFooter_aDataFiscalUrl\" rel=\"external\" style=\"margin-right: 20%\" target=\"_blank\">\n                            <img id=\"ctl00_ucFooter_imgDataFiscal\" src=\"https://one.zurich.com.ar/ad/images/data-fiscal.png\" style=\"border-width:0px;border-color: silver; border: 1px; border-style: solid\"></img>\n                        </a>\n                    </div>\n                    <div style=\"margin: 0px;float: left;padding: 1%;\">\n                        <a href=\"http://qr.afip.gob.ar/?qr=05dcz6PXqXc8V0Uj35xEmQ,,\" id=\"ctl00_ucFooter_aDataFiscal1Url\" rel=\"external\" style=\"margin-right: 20%\" target=\"_blank\">\n                            <img id=\"ctl00_ucFooter_imgDataFiscal1\" src=\"https://one.zurich.com.ar/ad/images/data-fiscal.png\" style=\"border-width:0px;border-color: silver; border: 1px; border-style: solid\"></img>\n                        </a>\n                    </div>\n                </div>\n            </div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "ecb9700b-fbee-48bc-a364-764762d04b2a",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "825f7f4e-e9e9-4d19-9c82-d3469f0c87d0",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "IsDefaultHeaderHidden" : false,
+      "IsDefaultHeaderPositionFixed" : false,
+      "IsDefaultNotificationsHidden" : false,
+      "IsSearchBarHidden" : true,
+      "fixedPageWidth" : 1406,
+      "isPageWidthFixed" : true
+    },
+    "componentName" : "siteforce:prmBody",
+    "id" : "4f83616e-ebe2-4d53-8cfa-7978926c8fd1",
+    "label" : "Default",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : { },
+        "componentName" : "c:agentWorkAsBarHoc",
+        "id" : "4ec9527e-1c37-4492-8480-bef7a04b9370",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "50c356fc-aa31-483a-91af-eeff71505995",
+      "regionName" : "customHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "maxAutoCompleteResults" : 5,
+          "searchLabel" : "Search...",
+          "searchObjects" : [ {
+            "isPublic" : false,
+            "name" : "Lead"
+          }, {
+            "isPublic" : false,
+            "name" : "Opportunity"
+          }, {
+            "isPublic" : false,
+            "name" : "Campaign"
+          }, {
+            "isPublic" : false,
+            "name" : "ContentDocument"
+          } ]
+        },
+        "componentName" : "forceCommunity:globalSearchInput",
+        "id" : "b3e26f84-ac3b-44d6-8398-98126ea7d2cf",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "3d9df619-bc19-41ba-89b5-8e9d6e024aa7",
+      "regionName" : "search",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : { },
+        "componentName" : "c:AgentProfileMenu",
+        "id" : "9578cbe0-53b2-43a1-8067-2babdc09c943",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "78b94fe7-cb18-44af-b49a-460d592fc191",
+      "regionName" : "profileMenu",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "NavigationMenuEditorRefresh" : "ZurichAgentesDefaultNavigation",
+          "hideAppLauncher" : true,
+          "hideHomeText" : false
+        },
+        "componentName" : "forceCommunity:globalNavigation",
+        "id" : "a34f84ce-6961-4e6e-94d7-c9c2e6b7fedc",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "c555db93-67f2-45f0-a0b0-bfcba84ce2b4",
+      "regionName" : "navBar",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : { },
+        "componentName" : "c:AgentNavigationHOC",
+        "id" : "ba646d48-633a-4000-a091-2227525f9ae2",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "96cd1033-db52-4468-8d57-ec265741ddd1",
+      "regionName" : "customRegion",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : { },
+        "componentName" : "c:agentFooterWrapper",
+        "id" : "3b789ac7-bf70-4545-9c2f-8f8d8d0b6fef",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "840f249e-e0d9-404d-a75a-fe86dccff2b0",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "761184bd-add8-455b-91fc-af47852d2b90",
+    "label" : "ServiceNotAvailable",
+    "regions" : [ {
+      "id" : "955020bf-5810-4b5e-b5da-dfced7a88347",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "ef9055d3-fde5-4541-809d-d03bbf42b49b",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : { },
+    "componentName" : "c:ZA_BaseTheme",
+    "id" : "912e6a99-ed0d-4a81-a97b-1e0f6b46478d",
+    "label" : "Schedule",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : { },
+        "componentName" : "c:agentWorkAsBarHoc",
+        "id" : "9cab866e-5c1e-44d1-b1ad-fb64e4d32a62",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "b4fd86f1-a04f-431c-a051-1485dd6d7e58",
+      "regionName" : "customHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "maxAutoCompleteResults" : 5,
+          "searchLabel" : "Search...",
+          "searchObjects" : [ {
+            "isPublic" : false,
+            "name" : "Lead"
+          }, {
+            "isPublic" : false,
+            "name" : "Opportunity"
+          }, {
+            "isPublic" : false,
+            "name" : "Campaign"
+          }, {
+            "isPublic" : false,
+            "name" : "ContentDocument"
+          } ]
+        },
+        "componentName" : "forceCommunity:globalSearchInput",
+        "id" : "971364e0-dfb7-46cb-94ab-4fffd23197b3",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "d281f170-6282-4f48-8665-f4687ff80e19",
+      "regionName" : "search",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : { },
+        "componentName" : "c:AgentProfileMenu",
+        "id" : "9e9609e9-9466-4924-a29f-d072b5b63134",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "01a5b75a-74cd-4bf6-9280-fbaf904c88d5",
+      "regionName" : "profileMenu",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "NavigationMenuEditorRefresh" : "ZurichAgentesDefaultNavigation",
+          "hideAppLauncher" : true,
+          "hideHomeText" : false
+        },
+        "componentName" : "forceCommunity:globalNavigation",
+        "id" : "dfe4a392-4a90-4fd3-ad01-b96c40d8158a",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "a4e4bedd-d360-478a-b6a4-b0be7bd43f4f",
+      "regionName" : "navBar",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : { },
+        "componentName" : "c:agentViewAsBarHoc",
+        "id" : "a2d42473-e8d1-4c7c-aaa0-4d2018a17c7c",
+        "renditionMap" : { },
+        "type" : "component"
+      }, {
+        "componentAttributes" : { },
+        "componentName" : "c:AgentNavigationHOC",
+        "id" : "a8adaa3b-206f-4351-b00a-8189084d922e",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "183390be-2570-4fbe-824c-7bfa77ba1dc8",
+      "regionName" : "customRegion",
+      "type" : "region"
+    }, {
+      "id" : "d1c28e6d-0063-4128-8ee1-65a2e9a45ff3",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

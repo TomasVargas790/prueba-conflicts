@@ -1,0 +1,77 @@
+{
+  "appPageId" : "7e87dfd2-17e2-4c7f-b1dd-13342b2816fd",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "828b003d-ff00-4955-a1b3-94568b24f855",
+  "label" : "Capacitación Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "label" : "Volver",
+        "recordPage" : "None"
+      },
+      "componentName" : "c:agentBreadcrumb",
+      "id" : "ac19e563-24f5-4c27-aa0a-bcfb533553d4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "c:agentTrainingDetailActionsButtons",
+      "id" : "cf0f1ecf-896f-4922-aaf6-b9bcdb95c472",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f11889a3-91bb-4f01-b06c-9c1a2607de66",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "bea9d0f7-8b50-4c7a-a562-91e3d556e22b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "c:agentChampionsRegistration",
+      "id" : "52a0a04a-71ff-4c1c-8221-fe9fff0d26d5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9cf69488-4448-4618-b223-5ef480f78d78",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "f8f4a9d6-0c22-4bc2-b682-1e0b03a7100c",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ec43011c-a51f-4414-b7c4-4981d2565b70",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "12b35ecc-e2bf-4f8a-90b9-c2876b6ee936",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-a10"
+}

@@ -1,0 +1,6 @@
+/*ANY CHANGE MADE IN THIS FILE WILL BE DELETED WHEN GULP COMPILES THE LESS FILES!*/
+
+.direct-navigate__button {
+  display: block;
+  padding: 12px 0;
+}

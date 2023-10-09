@@ -1,0 +1,11 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "0ee417f5-5359-440d-a7ce-78325edc67b8",
+  "headMarkup" : "<link rel=\"stylesheet\" type=\"text/css\" href=\"/sfsites/c/resource/Productor/Assets/Styles/main.min.css?v=2\">\n<script>\nwindow.addEventListener('agentViewDocument', event => window.open(event.detail.url))\n</script>",
+  "id" : "7e87dfd2-17e2-4c7f-b1dd-13342b2816fd",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : true,
+  "label" : "main",
+  "templateName" : "PRM Community Template",
+  "type" : "appPage"
+}

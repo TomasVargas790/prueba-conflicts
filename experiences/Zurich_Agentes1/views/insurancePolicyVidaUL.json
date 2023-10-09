@@ -1,0 +1,307 @@
+{
+  "appPageId" : "7e87dfd2-17e2-4c7f-b1dd-13342b2816fd",
+  "componentName" : "c:AgentContentLayout",
+  "dataProviders" : [ ],
+  "id" : "49fcb23f-4e6f-47a5-bc11-85ae3c40399a",
+  "label" : "Insurance Policy Vida UL",
+  "regions" : [ {
+    "id" : "dba07dd3-5b23-41cc-814c-cf8addca2b0e",
+    "regionName" : "Header",
+    "type" : "region"
+  }, {
+    "id" : "b6612f8b-cc67-4a7a-8668-24a9c00f6a1a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "69f3d162-35fe-4216-912d-0ce037bc855b",
+    "regionName" : "Footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "873ba158-13e8-41d3-b492-51fce54d7148",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "38805b5c-48c5-47bd-a1d2-2841111f375b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "label" : "Volver al menú",
+        "recordPage" : "None"
+      },
+      "componentName" : "c:agentBreadcrumb",
+      "id" : "1ecc5410-b1e4-4a24-92f4-0023bed40365",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "heightDesktop" : 10
+      },
+      "componentName" : "c:agentSpacer",
+      "id" : "82e7e9f2-8491-4770-8561-c225d15f6ff8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}",
+        "recordPage" : "Policy"
+      },
+      "componentName" : "c:agentAlert",
+      "id" : "5c7228f4-8b2e-4698-a11f-7ab88b3f2ee4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "heightDesktop" : 20
+      },
+      "componentName" : "c:agentSpacer",
+      "id" : "5269c4e6-e7e7-42f7-887f-89156c41cb98",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "backgroundIcon" : "rgb(64, 102, 179)",
+        "icon" : "custom:custom1",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "c:agentPoliciesHeaders",
+      "id" : "245c9520-b167-42a5-835e-550ff4f84aed",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordDetail",
+      "id" : "efa38be8-63d0-48ba-b525-86425f391c0b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "heightDesktop" : 20
+      },
+      "componentName" : "c:agentSpacer",
+      "id" : "b27b9721-d7c8-48d2-97c0-6c990b59ca49",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "c181d7e8-48d1-4fe6-98c5-87f24d7a8893",
+          "activeTab" : "",
+          "tabs" : [ {
+            "UUID" : "e9c65428-f228-4745-ab99-fea0d9edafcf",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "1",
+            "tabName" : "Detalles"
+          }, {
+            "UUID" : "87131e41-6948-4018-9022-f9e05397ecd9",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "2",
+            "tabName" : "Solicitudes de Servicio"
+          }, {
+            "UUID" : "940abfb7-2d55-4ddf-ae65-259ad8c9bf0e",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "3",
+            "tabName" : "Beneficios"
+          }, {
+            "UUID" : "5963c085-86d2-48f2-a82e-a5d1ca7f179d",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "16687",
+            "tabName" : "Inversión"
+          }, {
+            "UUID" : "f31b00d2-0373-4e8f-ae4e-ada6fbb3350d",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "08427",
+            "tabName" : "Pagos"
+          }, {
+            "UUID" : "c76fdedf-44d7-44bd-9ab4-5e434020639b",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "97b1f",
+            "tabName" : "Rescate"
+          }, {
+            "UUID" : "746a4ff9-f924-486f-81ed-1cf25275ad4c",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "a029b",
+            "tabName" : "Documentación"
+          }, {
+            "UUID" : "c122b9ee-4cea-4dd2-b694-7047c4ccb346",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "ad31e",
+            "tabName" : "Siniestros"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "c181d7e8-48d1-4fe6-98c5-87f24d7a8893",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}",
+            "type" : "Vida Unit Linked"
+          },
+          "componentName" : "c:agentPoliciesDetail",
+          "id" : "3765b195-4cc3-42b7-ae56-c2b1167b4d01",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e9c65428-f228-4745-ab99-fea0d9edafcf",
+        "regionLabel" : "Detalles",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "c:agentPoliciesServiceRequest",
+          "id" : "7c0fb3c8-d9d0-4198-be0b-7791c7bb52a1",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "87131e41-6948-4018-9022-f9e05397ecd9",
+        "regionLabel" : "Solicitudes de Servicio",
+        "regionName" : "2",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}",
+            "type" : "Vida Unit Linked"
+          },
+          "componentName" : "c:agentPoliciesBenefits",
+          "id" : "4457fec2-cda3-4791-a5d4-3458719e55cd",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "940abfb7-2d55-4ddf-ae65-259ad8c9bf0e",
+        "regionLabel" : "Beneficios",
+        "regionName" : "3",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}",
+            "type" : "Vida Unit Linked"
+          },
+          "componentName" : "c:agentPoliciesInvestment",
+          "id" : "d7832e24-8397-4e65-b7b3-d75017e7f057",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5963c085-86d2-48f2-a82e-a5d1ca7f179d",
+        "regionLabel" : "Inversión",
+        "regionName" : "16687",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}",
+            "type" : "Vida Unit Linked"
+          },
+          "componentName" : "c:agentPoliciesPayment",
+          "id" : "84dcf3d1-42be-43de-83c2-4e159121bdbc",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f31b00d2-0373-4e8f-ae4e-ada6fbb3350d",
+        "regionLabel" : "Pagos",
+        "regionName" : "08427",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}",
+            "type" : "Vida Unit Linked"
+          },
+          "componentName" : "c:agentPoliciesRescue",
+          "id" : "4dd95e63-6e54-4c22-bb09-1a2c2c96ab4b",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c76fdedf-44d7-44bd-9ab4-5e434020639b",
+        "regionLabel" : "Rescate",
+        "regionName" : "97b1f",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}",
+            "type" : "Vida Unit Linked"
+          },
+          "componentName" : "c:agentPoliciesDocuments",
+          "id" : "6dc68fe2-3232-4fe6-9732-6b8987f2efea",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "746a4ff9-f924-486f-81ed-1cf25275ad4c",
+        "regionLabel" : "Documentación",
+        "regionName" : "a029b",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "c:agentPoliciesClaim",
+          "id" : "8c344f89-cfac-4273-9a9b-a24f9e8f2325",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c122b9ee-4cea-4dd2-b694-7047c4ccb346",
+        "regionLabel" : "Siniestros",
+        "regionName" : "ad31e",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3433484f-f3f1-447d-86d5-572e436efbd7",
+    "regionName" : "MainContent",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-0YT"
+}

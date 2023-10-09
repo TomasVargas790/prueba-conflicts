@@ -1,0 +1,88 @@
+/*ANY CHANGE MADE IN THIS FILE WILL BE DELETED WHEN GULP COMPILES THE LESS FILES!*/
+
+.business {
+  border: solid 1px #C9C9C9;
+  padding: 25px;
+}
+.business__title {
+  font-family: 'ZurichSans';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 32px;
+  color: #4066B3;
+}
+.business__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.business__opt {
+  display: flex;
+  align-items: center;
+  width: 340px;
+  margin: 15px;
+}
+.business__opt lightning-icon {
+  color: #4066B3;
+  margin-right: 15px;
+}
+.business__opt lightning-formatted-rich-text {
+  color: #4066B3;
+  font-size: 18px;
+  line-height: 23px;
+}
+@media all and (min-width: 768px) {
+  .business__content {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  .business__opt {
+    margin: 0;
+  }
+  .business__opt lightning-icon {
+    color: #4066B3;
+    margin-right: 15px;
+  }
+  .business__opt lightning-formatted-rich-text {
+    color: #4066B3;
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+.business-small {
+  border: solid 1px #C9C9C9;
+  padding: 25px;
+}
+.business-small .business__title {
+  font-family: 'ZurichSans';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 32px;
+  color: #4066B3;
+  text-align: center;
+}
+.business-small .business__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.business-small .business__opt {
+  display: flex;
+  align-items: center;
+  width: 230px;
+  margin: 15px;
+}
+.business-small .business__opt lightning-icon {
+  color: #4066B3;
+  margin-right: 15px;
+}
+.business-small .business__opt lightning-formatted-rich-text {
+  color: #4066B3;
+  font-size: 18px;
+  line-height: 23px;
+  cursor: pointer;
+}

@@ -1,0 +1,58 @@
+{
+  "appPageId" : "7e87dfd2-17e2-4c7f-b1dd-13342b2816fd",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "8900bd23-8d1c-4903-9cd4-632bd7a47b72",
+  "label" : "Ayuda",
+  "regions" : [ {
+    "id" : "376dc866-06c2-4932-ab82-12e15e1e0082",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "heightDesktop" : 30,
+        "heightMobile" : 20
+      },
+      "componentName" : "c:agentSpacer",
+      "id" : "161a8a87-4676-48b8-a273-dabb9ba8be44",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p><span style=\"font-size: 20px; font-family: verdana;\">Si tenés algún inconveniente para acceder a la plataforma por favor&nbsp;comunicate con tu Ejecutivo de Cuentas.&nbsp;</span></p><p><span style=\"font-size: 20px; font-family: verdana;\">&nbsp;</span></p><p><span style=\"font-size: 20px; font-family: verdana;\">Para otras consultas hacé clic&nbsp;</span><a href=\"https://www.zurich.com.ar/es-ar/personas/contacto\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 20px; font-family: verdana;\">acá</a>.</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "fd3830f2-3c1c-43da-ae33-ea65e4f08c8c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "30db510b-c728-43f8-bff3-dd57cb5491ba",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "2a9e8e2a-40e6-4843-a2cd-b7f6135155aa",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "Página que se abre al clickear en \"Ayuda\" sobre el Footer.",
+        "title" : "Ayuda"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e03a4b75-b3bd-4384-b321-9f1647f9fb17",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0a073f5e-f656-4bad-8aac-6c68b3f913de",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "4rvrDvbiE3nzPCjVvnhqhNtb5FWpKI",
+  "type" : "view",
+  "viewType" : "custom-ayuda"
+}

@@ -1,0 +1,118 @@
+{
+  "appPageId" : "7e87dfd2-17e2-4c7f-b1dd-13342b2816fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "402fe140-5d22-4c55-a0fa-a8ea64cd70d1",
+  "label" : "Help",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "021b7592-755a-46b9-9571-339120c147c9",
+          "columns" : [ {
+            "UUID" : "c1eda332-7b2f-43cc-a958-b56268e17913",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 400
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "021b7592-755a-46b9-9571-339120c147c9",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"width: 100%;z-index:100;display: flex;border-bottom: 3px solid;border-color: #039;flex-wrap: wrap;justify-content: flex-start;background-color:white;\">\n            <img id=\"imgSsnLogo\" src=\"https://one.zurich.com.ar/ad/images/zurich_logo_Master.png\" style=\"overflow: auto;border: 0px;max-width: 251px;height: 80px;object-fit: cover;object-position: left;justify-self: flex-start;\"></img>\n            <p style=\"font-weight: bold;font-size: 15px;background: transparent;color: #003399;font-family: Verdana,Arial,Helvetica,sans-serif;display: flex;align-items: center;margin: auto; padding-right: 15%;\">¡Te damos la Bienvenida a One! La plataforma comercial de Zurich</p>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "dc6a8e59-10df-4456-85c5-2d88cf108fbb",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"font-size: 13px;line-height: 17px;text-align: center;font-weight: 200;padding-bottom: 12px; color: #4066b3;\">Si necesitás ayuda accede al instructivo haciendo <a href=\"https://zurich-arg.my.salesforce.com/sfc/p/3i000000D3oS/a/3i000000ckfv/QHLqmE8LqkSY6XHdvFbrAp0cjb3LMwriIOGalZb29wo\">click aqui</a></p>\n<p style=\"font-size: 13px;line-height: 17px;text-align: center;font-weight: 200;padding-bottom: 12px; color: #4066b3;\">Por consultas adicionales, comunicate con tu ejecutivo Comercial.</p>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "df24371e-783a-441d-8a71-0298779a75ce",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c1eda332-7b2f-43cc-a958-b56268e17913",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "c0921ff4-d418-4496-aa1e-1389c6faa3ae",
+          "columns" : [ {
+            "UUID" : "9464819c-e456-4be8-894b-5cffa60e037a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c0921ff4-d418-4496-aa1e-1389c6faa3ae",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"width: 100%;height: auto;background: white;border-top: 4px solid #039;display: flex;flex-wrap: wrap;justify-content: space-between;\">\n                <div style=\"float: left;padding: 0px 0px 0px 0px;\">\n                    <a href=\"https://one.zurich.com.ar/ad/ssn.aspx\" id=\"ctl00_ucFooter_aSsnUrl\" rel=\"Contents\" style=\"margin-right: 20%\" target=\"_self\">\n                        <img id=\"ctl00_ucFooter_imgSsnLogo\" src=\"https://one.zurich.com.ar/ad/images/ssnlogo.png\" style=\"border-width:0px;border-color: silver; border: 0px; border-style: solid\"></img>\n                    </a>\n                </div>\n                <div style=\"float: left;font-size: 11px;font-family: Verdana,Arial,Helvetica,sans-serif;padding-right: 10%;\">\n                    <p>\n                        <a href=\"https://one.zurich.com.ar/ad/Privacidad.aspx\" id=\"ctl00_ucFooter_lnkPrivacidad\" style=\"color:#1E50A7;\">Protección Datos Personales - Legales</a>\n                    </p>\n                    <p style=\"margin-left: 2%;\">\n                        Copyright ©\n                        2021\n                        Zurich Argentina\n                    </p>\n                </div>\n                \n                <div style=\"display: flex;width: 100px;justify-content: space-between;\">\n                    <div style=\"margin: 0px;float: left;padding: 1%;\">\n                        <a href=\"https://servicios1.afip.gov.ar/clavefiscal/qr/response.aspx?qr=U4iPCyFWHKtCcpkex9ooaw,,\" id=\"ctl00_ucFooter_aDataFiscalUrl\" rel=\"external\" style=\"margin-right: 20%\" target=\"_blank\">\n                            <img id=\"ctl00_ucFooter_imgDataFiscal\" src=\"https://one.zurich.com.ar/ad/images/data-fiscal.png\" style=\"border-width:0px;border-color: silver; border: 1px; border-style: solid\"></img>\n                        </a>\n                    </div>\n                    <div style=\"margin: 0px;float: left;padding: 1%;\">\n                        <a href=\"http://qr.afip.gob.ar/?qr=05dcz6PXqXc8V0Uj35xEmQ,,\" id=\"ctl00_ucFooter_aDataFiscal1Url\" rel=\"external\" style=\"margin-right: 20%\" target=\"_blank\">\n                            <img id=\"ctl00_ucFooter_imgDataFiscal1\" src=\"https://one.zurich.com.ar/ad/images/data-fiscal.png\" style=\"border-width:0px;border-color: silver; border: 1px; border-style: solid\"></img>\n                        </a>\n                    </div>\n                </div>\n            </div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "d4946bc3-0ba6-4fda-a747-f0360a566ff1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9464819c-e456-4be8-894b-5cffa60e037a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9567d756-0baf-41cc-8f5d-360db95bf1af",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Help"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e8bf023c-c313-43b9-a65f-16dfb4281e5b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "367c5906-6b52-424e-bd59-1944a932eb2e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "4rvrDvbiE3nzPCjVvnhqhNtb5FWpKI",
+  "type" : "view",
+  "viewType" : "custom-help"
+}

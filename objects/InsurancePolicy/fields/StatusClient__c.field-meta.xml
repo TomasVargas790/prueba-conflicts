@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StatusClient__c</fullName>
+    <description>Estado a mostrar en los portales de clientes.</description>
+    <externalId>false</externalId>
+    <label>Estado Cliente</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>EmitidaNoVigente</fullName>
+                <default>false</default>
+                <label>Emitida No Vigente</label>
+            </value>
+            <value>
+                <fullName>NoVigente</fullName>
+                <default>false</default>
+                <label>No Vigente</label>
+            </value>
+            <value>
+                <fullName>Renovada</fullName>
+                <default>false</default>
+                <label>Renovada</label>
+            </value>
+            <value>
+                <fullName>Vencida</fullName>
+                <default>false</default>
+                <label>Vencida</label>
+            </value>
+            <value>
+                <fullName>Vigente</fullName>
+                <default>false</default>
+                <label>Vigente</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

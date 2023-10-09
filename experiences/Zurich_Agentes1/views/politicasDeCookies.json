@@ -1,0 +1,54 @@
+{
+  "appPageId" : "7e87dfd2-17e2-4c7f-b1dd-13342b2816fd",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "f8f2a461-42c6-4ac4-9d3e-3598c319d770",
+  "label" : "Politicas de cookies",
+  "regions" : [ {
+    "id" : "94380dd0-83bf-4f76-b1dd-1078d32030da",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:agentPolicesCookies",
+      "id" : "cedc2a1b-c12f-4b60-b205-35e27ab95b28",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e3ed362b-d9c1-4efe-93e1-94ef442110a1",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:agentFooterWrapper",
+      "id" : "833d38e1-aeab-4606-a47f-5b9f18f40cbb",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ea6b7687-d837-41b5-9f36-764b9bbd9859",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Politicas de cookies"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "207253eb-418b-436f-923a-91b0feef9214",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1af19a14-f1c8-4e40-968a-dc95eee6b848",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "4rvrDvbiE3nzPCjVvnhqhNtb5FWpKI",
+  "type" : "view",
+  "viewType" : "custom-politicas-de-cookies"
+}

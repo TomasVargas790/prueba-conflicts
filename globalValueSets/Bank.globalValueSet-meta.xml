@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>001</fullName>
+        <default>false</default>
+        <label>DEUTSCHE BANK ARGENTINA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>003</fullName>
+        <default>false</default>
+        <label>BANCO EUROPEO PARA AMERICA LATINA (BEAL) S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>005</fullName>
+        <default>false</default>
+        <label>ABN AMRO BANK N.V.</label>
+    </customValue>
+    <customValue>
+        <fullName>006</fullName>
+        <default>false</default>
+        <label>BANCO SUDAMERIS ARGENTINA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>007</fullName>
+        <default>false</default>
+        <label>BANCO DE GALICIA Y BUENOS AIRES S.A.U.</label>
+    </customValue>
+    <customValue>
+        <fullName>010</fullName>
+        <default>false</default>
+        <label>LLOYDS BANK (BLSA) LIMITED</label>
+    </customValue>
+    <customValue>
+        <fullName>011</fullName>
+        <default>false</default>
+        <label>BANCO DE LA NACION ARGENTINA</label>
+    </customValue>
+    <customValue>
+        <fullName>012</fullName>
+        <default>false</default>
+        <label>BCO. DE CR?DITO ARGENTINO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>014</fullName>
+        <default>false</default>
+        <label>BANCO DE LA PROVINCIA DE BUENOS AIRES</label>
+    </customValue>
+    <customValue>
+        <fullName>015</fullName>
+        <default>false</default>
+        <label>INDUSTRIAL AND COMMERCIAL BANK OF CHINA</label>
+    </customValue>
+    <customValue>
+        <fullName>016</fullName>
+        <default>false</default>
+        <label>CITIBANK N.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>017</fullName>
+        <default>false</default>
+        <label>BANCO BBVA ARGENTINA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>018</fullName>
+        <default>false</default>
+        <label>THE BANK OF TOKYO-MITSUBISHI</label>
+    </customValue>
+    <customValue>
+        <fullName>020</fullName>
+        <default>false</default>
+        <label>BANCO DE LA PROVINCIA DE CORDOBA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>025</fullName>
+        <default>false</default>
+        <label>BANCO SANTANDER S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>027</fullName>
+        <default>false</default>
+        <label>BANCO SUPERVIELLE S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>028</fullName>
+        <default>false</default>
+        <label>BANCO MACRO</label>
+    </customValue>
+    <customValue>
+        <fullName>029</fullName>
+        <default>false</default>
+        <label>BANCO DE LA CIUDAD DE BUENOS AIRES</label>
+    </customValue>
+    <customValue>
+        <fullName>034</fullName>
+        <default>false</default>
+        <label>BANCO PATAGONIA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>039</fullName>
+        <default>false</default>
+        <label>BANCO CAJA DE AHORRO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>042</fullName>
+        <default>false</default>
+        <label>THE CHASE MANHATTAN BANK</label>
+    </customValue>
+    <customValue>
+        <fullName>043</fullName>
+        <default>false</default>
+        <label>BANCO QUILMES S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>044</fullName>
+        <default>false</default>
+        <label>BANCO HIPOTECARIO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>045</fullName>
+        <default>false</default>
+        <label>BANCO DE SAN JUAN S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>046</fullName>
+        <default>false</default>
+        <label>BANCO DO BRASIL S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>049</fullName>
+        <default>false</default>
+        <label>BCO. DE LA PROVINCIA DE JUJUY</label>
+    </customValue>
+    <customValue>
+        <fullName>050</fullName>
+        <default>false</default>
+        <label>BANCO TORNQUIST S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>054</fullName>
+        <default>false</default>
+        <label>BANCO COMERCIAL ISRAELITA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>056</fullName>
+        <default>false</default>
+        <label>BCO. DE CREDITO PROVINCIAL S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>059</fullName>
+        <default>false</default>
+        <label>BANCO DE ENTRE RIOS S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>060</fullName>
+        <default>false</default>
+        <label>BANCO DEL TUCUMAN S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>061</fullName>
+        <default>false</default>
+        <label>BANCO DE MENDOZA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>062</fullName>
+        <default>false</default>
+        <label>BCO. ISRAELITA DE CORDOBA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>065</fullName>
+        <default>false</default>
+        <label>BANCO MUNICIPAL DE ROSARIO</label>
+    </customValue>
+    <customValue>
+        <fullName>066</fullName>
+        <default>false</default>
+        <label>BANCO MUNICIPAL DE TUCUMAN</label>
+    </customValue>
+    <customValue>
+        <fullName>067</fullName>
+        <default>false</default>
+        <label>BANCO BANSUD S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>071</fullName>
+        <default>false</default>
+        <label>BANCO DE SANTA FE S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>072</fullName>
+        <default>false</default>
+        <label>BANCO SANTANDER RIO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>075</fullName>
+        <default>false</default>
+        <label>BANCO DE PREVISION SOCIAL S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>079</fullName>
+        <default>false</default>
+        <label>BANCO REGIONAL DE CUYO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>081</fullName>
+        <default>false</default>
+        <label>BANCO SOCIAL DE CORDOBA</label>
+    </customValue>
+    <customValue>
+        <fullName>083</fullName>
+        <default>false</default>
+        <label>BANCO DEL CHUBUT S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>086</fullName>
+        <default>false</default>
+        <label>BANCO DE SANTA CRUZ S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>092</fullName>
+        <default>false</default>
+        <label>BANCO DE CATAMARCA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>093</fullName>
+        <default>false</default>
+        <label>BANCO DE LA PAMPA SOCIEDAD DE ECONOM?A M</label>
+    </customValue>
+    <customValue>
+        <fullName>094</fullName>
+        <default>false</default>
+        <label>BANCO DE CORRIENTES S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>097</fullName>
+        <default>false</default>
+        <label>BANCO PROVINCIA DEL NEUQU?N SOCIEDAD AN?</label>
+    </customValue>
+    <customValue>
+        <fullName>105</fullName>
+        <default>false</default>
+        <label>STANDARD BANK</label>
+    </customValue>
+    <customValue>
+        <fullName>107</fullName>
+        <default>false</default>
+        <label>BCO. COMERCIAL TRES ARROYOS S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>113</fullName>
+        <default>false</default>
+        <label>BANCO EDIFICADORA OLAVARRIA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>133</fullName>
+        <default>false</default>
+        <label>BANCO CREDITO DE CUYO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>137</fullName>
+        <default>false</default>
+        <label>BANCO EMPRESARIO TUCUMAN COOP.LTDO</label>
+    </customValue>
+    <customValue>
+        <fullName>141</fullName>
+        <default>false</default>
+        <label>BCO. STAFES.DE INVERSION Y DES</label>
+    </customValue>
+    <customValue>
+        <fullName>143</fullName>
+        <default>false</default>
+        <label>BRUBANK S.A.U.</label>
+    </customValue>
+    <customValue>
+        <fullName>147</fullName>
+        <default>false</default>
+        <label>BANCO INTERFINANZAS S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>148</fullName>
+        <default>false</default>
+        <label>BANCO MUNICIPAL DE LA PLATA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>149</fullName>
+        <default>false</default>
+        <label>COFIRENE BCO. DE INVERSION S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>150</fullName>
+        <default>false</default>
+        <label>HSBC BANK ARGENTINA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>153</fullName>
+        <default>false</default>
+        <label>BANCO GENERAL DE NEGOCIOS S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>162</fullName>
+        <default>false</default>
+        <label>BANCO MAYO COOP. LTDO.</label>
+    </customValue>
+    <customValue>
+        <fullName>165</fullName>
+        <default>false</default>
+        <label>JPMORGAN CHASE BANK, NATIONAL ASSOCIATIO</label>
+    </customValue>
+    <customValue>
+        <fullName>167</fullName>
+        <default>false</default>
+        <label>BANCO REAL S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>175</fullName>
+        <default>false</default>
+        <label>BANCO SUDECOR LITORAL S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>178</fullName>
+        <default>false</default>
+        <label>BANCO DE BALCARCE COOP. LTDO.</label>
+    </customValue>
+    <customValue>
+        <fullName>179</fullName>
+        <default>false</default>
+        <label>BANCO ALMAFUERTE COOP. LTDO.</label>
+    </customValue>
+    <customValue>
+        <fullName>191</fullName>
+        <default>false</default>
+        <label>BANCO CREDICOOP COOPERATIVO LIMITADO</label>
+    </customValue>
+    <customValue>
+        <fullName>198</fullName>
+        <default>false</default>
+        <label>BANCO DE VALORES S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>229</fullName>
+        <default>false</default>
+        <label>BANCO DEL BUEN AYRE S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>231</fullName>
+        <default>false</default>
+        <label>BCO. DE RIO TERCERO COOP. LTDO.</label>
+    </customValue>
+    <customValue>
+        <fullName>236</fullName>
+        <default>false</default>
+        <label>BCO. DO ESTADO DO SAO PAULO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>247</fullName>
+        <default>false</default>
+        <label>BANCO ROELA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>249</fullName>
+        <default>false</default>
+        <label>BANCO PATRICIOS S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>253</fullName>
+        <default>false</default>
+        <label>THE BANK OF NEW YORK S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>254</fullName>
+        <default>false</default>
+        <label>BANCO MARIVA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>255</fullName>
+        <default>false</default>
+        <label>BANCO DEL SUQUIA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>256</fullName>
+        <default>false</default>
+        <label>CITICORP-BCO DE INVERSION S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>259</fullName>
+        <default>false</default>
+        <label>BANCO ITAU ARGENTINA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>260</fullName>
+        <default>false</default>
+        <label>BCO. EXTERIOR DE AMERICA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>262</fullName>
+        <default>false</default>
+        <label>BANK OF AMERICA, NATIONAL ASSOCIATION</label>
+    </customValue>
+    <customValue>
+        <fullName>265</fullName>
+        <default>false</default>
+        <label>BANCA NAZIONALE DEL LAVORO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>266</fullName>
+        <default>false</default>
+        <label>BNP PARIBAS</label>
+    </customValue>
+    <customValue>
+        <fullName>267</fullName>
+        <default>false</default>
+        <label>REPUBLIC NATIONAL BANK OF NY</label>
+    </customValue>
+    <customValue>
+        <fullName>268</fullName>
+        <default>false</default>
+        <label>BANCO PROVINCIA DE TIERRA DEL FUEGO</label>
+    </customValue>
+    <customValue>
+        <fullName>269</fullName>
+        <default>false</default>
+        <label>BANCO DE LA REPUBLICA ORIENTAL DEL URUGU</label>
+    </customValue>
+    <customValue>
+        <fullName>271</fullName>
+        <default>false</default>
+        <label>BANCO VELOX S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>273</fullName>
+        <default>false</default>
+        <label>BANCO LOS TILOS S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>275</fullName>
+        <default>false</default>
+        <label>BANCO REPUBLICA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>277</fullName>
+        <default>false</default>
+        <label>BANCO SAENZ S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>280</fullName>
+        <default>false</default>
+        <label>BANCO FLORENCIA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>281</fullName>
+        <default>false</default>
+        <label>BANCO MERIDIAN S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>285</fullName>
+        <default>false</default>
+        <label>BANCO MACRO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>287</fullName>
+        <default>false</default>
+        <label>BANCO MEDEFIN UNB S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>293</fullName>
+        <default>false</default>
+        <label>BANCO MERCURIO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>294</fullName>
+        <default>false</default>
+        <label>ING BANK N.V.</label>
+    </customValue>
+    <customValue>
+        <fullName>295</fullName>
+        <default>false</default>
+        <label>AMERICAN EXPRESS BANK LTD. S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>297</fullName>
+        <default>false</default>
+        <label>EXPRINTER BANCO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>299</fullName>
+        <default>false</default>
+        <label>BANCO COMAFI SOCIEDAD ANONIMA</label>
+    </customValue>
+    <customValue>
+        <fullName>300</fullName>
+        <default>false</default>
+        <label>BANCO DE INVERSION Y COMERCIO EXTERIOR S</label>
+    </customValue>
+    <customValue>
+        <fullName>301</fullName>
+        <default>false</default>
+        <label>BANCO PIANO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>303</fullName>
+        <default>false</default>
+        <label>BANCO FINANSUR S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>305</fullName>
+        <default>false</default>
+        <label>BANCO JULIO SOCIEDAD ANONIMA</label>
+    </customValue>
+    <customValue>
+        <fullName>306</fullName>
+        <default>false</default>
+        <label>BANCO PRIVADO DE INVERSIONES S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>307</fullName>
+        <default>false</default>
+        <label>BANCO MAYORISTA DEL PLATA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>308</fullName>
+        <default>false</default>
+        <label>BANCO TRANSANDINO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>309</fullName>
+        <default>false</default>
+        <label>BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL</label>
+    </customValue>
+    <customValue>
+        <fullName>310</fullName>
+        <default>false</default>
+        <label>BANCO DEL SOL S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>311</fullName>
+        <default>false</default>
+        <label>NUEVO BANCO DEL CHACO S. A.</label>
+    </customValue>
+    <customValue>
+        <fullName>312</fullName>
+        <default>false</default>
+        <label>BANCO VOII S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>313</fullName>
+        <default>false</default>
+        <label>BANCO ARGENCOOP COOP. LTDO.</label>
+    </customValue>
+    <customValue>
+        <fullName>314</fullName>
+        <default>false</default>
+        <label>BISEL S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>315</fullName>
+        <default>false</default>
+        <label>BANCO DE FORMOSA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>316</fullName>
+        <default>false</default>
+        <label>BANCO DE MISIONES S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>317</fullName>
+        <default>false</default>
+        <label>BANCO DE RIO NEGRO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>318</fullName>
+        <default>false</default>
+        <label>BANCO DE SALTA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>319</fullName>
+        <default>false</default>
+        <label>BANCO CMF S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>320</fullName>
+        <default>false</default>
+        <label>BANCO DE SAN LUIS</label>
+    </customValue>
+    <customValue>
+        <fullName>321</fullName>
+        <default>false</default>
+        <label>BANCO DE SANTIAGO DEL ESTERO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>322</fullName>
+        <default>false</default>
+        <label>BANCO INDUSTRIAL S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>323</fullName>
+        <default>false</default>
+        <label>CORP. BANCA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>324</fullName>
+        <default>false</default>
+        <label>BANCO DE JUJUY S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>325</fullName>
+        <default>false</default>
+        <label>DEUTSCHE BANK S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>326</fullName>
+        <default>false</default>
+        <label>MERCOBANK S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>328</fullName>
+        <default>false</default>
+        <label>BANCO MENDOZA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>330</fullName>
+        <default>false</default>
+        <label>NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA</label>
+    </customValue>
+    <customValue>
+        <fullName>331</fullName>
+        <default>false</default>
+        <label>BANCO CETELEM ARGENTINA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>332</fullName>
+        <default>false</default>
+        <label>BANCO DE SERVICIOS FINANCIEROS S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>336</fullName>
+        <default>false</default>
+        <label>BANCO BRADESCO ARGENTINA S.A.U.</label>
+    </customValue>
+    <customValue>
+        <fullName>338</fullName>
+        <default>false</default>
+        <label>BANCO DE SERVICIOS Y TRANSACCIONES S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>339</fullName>
+        <default>false</default>
+        <label>RCI BANQUE S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>340</fullName>
+        <default>false</default>
+        <label>BACS BANCO DE CREDITO Y SECURITIZACION S</label>
+    </customValue>
+    <customValue>
+        <fullName>341</fullName>
+        <default>false</default>
+        <label>BANCO MASVENTAS S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>384</fullName>
+        <default>false</default>
+        <label>WILOBANK S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>386</fullName>
+        <default>false</default>
+        <label>NUEVO BANCO DE ENTRE RIOS S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>387</fullName>
+        <default>false</default>
+        <label>NUEVO BANCO SUQUIA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>388</fullName>
+        <default>false</default>
+        <label>NUEVO BANCO BISEL S.A</label>
+    </customValue>
+    <customValue>
+        <fullName>389</fullName>
+        <default>false</default>
+        <label>BANCO COLUMBIA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>402</fullName>
+        <default>false</default>
+        <label>SADELA-COMPA?IA FINANCIERA</label>
+    </customValue>
+    <customValue>
+        <fullName>406</fullName>
+        <default>false</default>
+        <label>TUTELAR COMPA?IA FINANCIERA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>408</fullName>
+        <default>false</default>
+        <label>COMPA?IA FINANCIERA ARGENTINA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>410</fullName>
+        <default>false</default>
+        <label>COLUMBIA CIA. FINANCIERA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>414</fullName>
+        <default>false</default>
+        <label>MASVENTAS S.A. CIA FINANCIERA</label>
+    </customValue>
+    <customValue>
+        <fullName>415</fullName>
+        <default>false</default>
+        <label>MULTIFINANZAS C?A. FINANCIERA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>417</fullName>
+        <default>false</default>
+        <label>FIDECA COMPA?IA FINANCIERA</label>
+    </customValue>
+    <customValue>
+        <fullName>431</fullName>
+        <default>false</default>
+        <label>BANCO COINAG S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>432</fullName>
+        <default>false</default>
+        <label>BANCO DE COMERCIO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>434</fullName>
+        <default>false</default>
+        <label>CREDITO REGIONAL COMPA?IA FINANCIERA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>435</fullName>
+        <default>false</default>
+        <label>BANCO SUCREDITO REGIONAL S.A.U.</label>
+    </customValue>
+    <customValue>
+        <fullName>439</fullName>
+        <default>false</default>
+        <label>BANCO CREDILOGROS</label>
+    </customValue>
+    <customValue>
+        <fullName>448</fullName>
+        <default>false</default>
+        <label>BANCO DINO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>459</fullName>
+        <default>false</default>
+        <label>BANCO PATAGONIA</label>
+    </customValue>
+    <customValue>
+        <fullName>426</fullName>
+        <default>false</default>
+        <label>BANCO BICA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>515</fullName>
+        <default>false</default>
+        <label>BANK OF CHINA LIMITED SUCURSAL BUENOS AI</label>
+    </customValue>
+    <customValue>
+        <fullName>1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DEUTSCHE BANK ARGENTINA S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>00014</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>00014</label>
+    </customValue>
+    <customValue>
+        <fullName>5</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ABN AMRO BANK N.V. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>6</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO SUDAMERIS ARGENTINA S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>7</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO DE GALICIA Y BUENOS AIRES S.A.U. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>10</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LLOYDS BANK (BLSA) LIMITED (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>11</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO DE LA NACION ARGENTINA (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>12</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BCO. DE CR?DITO ARGENTINO S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>14</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO DE LA PROVINCIA DE BUENOS AIRES (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>15</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>INDUSTRIAL AND COMMERCIAL BANK OF CHINA (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>16</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CITIBANK N.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>17</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BBVA BANCO FRANCES S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>18</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THE BANK OF TOKYO-MITSUBISHI (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>20</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO DE LA PROVINCIA DE CORDOBA S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>25</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO SANTANDER S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>27</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO SUPERVIELLE S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>28</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO MACRO (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>29</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO DE LA CIUDAD DE BUENOS AIRES (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>34</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO PATAGONIA S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>39</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO CAJA DE AHORRO S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>42</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THE CHASE MANHATTAN BANK (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>43</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO QUILMES S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>44</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO HIPOTECARIO S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>45</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO DE SAN JUAN S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>46</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO DO BRASIL S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>49</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BCO. DE LA PROVINCIA DE JUJUY (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>50</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO TORNQUIST S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>54</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO COMERCIAL ISRAELITA S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>56</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BCO. DE CREDITO PROVINCIAL S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>59</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO DE ENTRE RIOS S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>60</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO DEL TUCUMAN S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>61</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO DE MENDOZA S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>62</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BCO. ISRAELITA DE CORDOBA S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>65</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO MUNICIPAL DE ROSARIO (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>66</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO MUNICIPAL DE TUCUMAN (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>67</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO BANSUD S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>71</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO DE SANTA FE S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>72</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO SANTANDER RIO S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>75</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO DE PREVISION SOCIAL S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>79</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO REGIONAL DE CUYO S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>81</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO SOCIAL DE CORDOBA (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>83</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO DEL CHUBUT S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>86</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO DE SANTA CRUZ S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>92</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO DE CATAMARCA S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>93</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO DE LA PAMPA SOCIEDAD DE ECONOM?A M (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>94</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO DE CORRIENTES S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>3</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO EUROPEO PARA AMERICA LATINA (BEAL) S.A. (Inactive)</label>
+    </customValue>
+    <customValue>
+        <fullName>97</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO PROVINCIA DEL NEUQU?N SOCIEDAD AN? (Inactive)</label>
+    </customValue>
+    <description>Lista de bancos con sus respectivos códigos.</description>
+    <masterLabel>Bancos</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

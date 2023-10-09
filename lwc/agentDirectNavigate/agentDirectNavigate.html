@@ -1,0 +1,9 @@
+<template>
+    <c-agent-loader-spinner if:true={loading} hasbackdrop></c-agent-loader-spinner>
+    <template if:true={areButtonsShown} class="direct-navigate">
+        <c-agent-button label={label.goToOne} type="primary" class="direct-navigate__button"
+            onclick={handlerClickGoOne}></c-agent-button>
+        <c-agent-button label={label.goToPortal} type="primary" class="direct-navigate__button"
+            onclick={handlerClickGoPortal}></c-agent-button>
+    </template>
+</template>

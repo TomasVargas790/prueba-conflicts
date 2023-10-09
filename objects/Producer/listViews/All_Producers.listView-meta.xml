@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Producers</fullName>
+    <columns>Name</columns>
+    <columns>Type</columns>
+    <columns>InternalUser</columns>
+    <columns>Account</columns>
+    <columns>Contact</columns>
+    <columns>Description__c</columns>
+    <columns>ExternalId__c</columns>
+    <columns>Code__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Producers</label>
+</ListView>

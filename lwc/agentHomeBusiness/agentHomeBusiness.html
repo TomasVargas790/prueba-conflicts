@@ -1,0 +1,25 @@
+<template>
+    <div class="business">
+        <h1 class="business__title" title={label.title}>{label.title}</h1>
+        <div if:true={options} class="business__content">
+            <template for:each={options} for:item="opt">
+                <div key={opt.url} class="business__opt">
+                    <lightning-icon icon-name="utility:check"></lightning-icon>
+                    <lightning-formatted-rich-text value={opt.label} onclick={handlerClickOpenModal}>
+                    </lightning-formatted-rich-text>
+                </div>
+            </template>
+            <div class="business__opt">
+                <lightning-icon icon-name="utility:check"></lightning-icon>
+                <lightning-formatted-rich-text value="Ver más" onclick={handlerClickNavigation}>
+                </lightning-formatted-rich-text>
+            </div>
+        </div>
+
+        <c-agent-modal if:true={openModal} show-close type-class="wide" onclosemodal={handlerCloseModal}>
+            <div class="modal" slot="body">
+                <c-agent-iframe if:true={iframeUrl} iframe-url={iframeUrl} class="business__iframe"></c-agent-iframe>
+            </div>
+        </c-agent-modal>
+    </div>
+</template>
